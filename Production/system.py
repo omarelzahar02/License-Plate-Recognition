@@ -8,11 +8,14 @@ from skimage import feature
 import joblib
 from character_recognition import CharacterRecognition
 import os
+import pandas as pd
 
 
 def construct_dataset_labels(dir, output_file="labels.txt"):
     # open output file
     output_file = open(output_file, "w", encoding="utf-8")
+
+    df = pd.DataFrame(columns=["0, 1, 2, 3, 4, 5, 6, 7, 8, 9"])
 
     # loop over all files
     last_file_number = 0
@@ -38,13 +41,8 @@ def construct_dataset_labels(dir, output_file="labels.txt"):
 
 
 def read_labels_file(file_path):
-    labels = {}
-    with open(file_path, "r", encoding="utf-8") as file:
-        for line in file:
-            line = line.strip()
-            file_number, label = line.split(" ")
-            labels[file_number] = label
-    return labels
+    df = pd.read_csv(file_path, sep=" ", index_col=0)
+    return df
 
 
 def process_image(image_path, knn_model, threshold):
@@ -69,12 +67,41 @@ def process_image(image_path, knn_model, threshold):
 
 
 if __name__ == "__main__":
+    # construct_dataset_labels("../chars_labeling/Characters")
     labels = read_labels_file("labels.txt")
 
     knn_model = joblib.load("../model_1.pkl")
     threshold = 1.50
 
-    result = process_image(
-        "../Dataset/Vehicles/1338.jpg", knn_model, threshold)
-    print(f"Result: {result}")
-    print(f"Expected: {labels['1338']}")
+    correct = 0
+    total = 0
+    accuracy = 0
+    from collections import Counter
+    for image_number in labels.index:
+        try:
+            result = process_image(
+                f"../Dataset/Vehicles/{image_number:04d}.jpg", knn_model, threshold)
+            print(f"Result: {result}")
+            print(f"Expected: {labels['label'][image_number]}")
+            total += 1
+            # if result == labels['label'][image_number]:
+            #     correct += 1
+
+            result_counter = Counter(result)
+            label_counter = Counter(labels['label'][image_number])
+
+            if result_counter == label_counter:
+                correct += 1
+        except:
+            print("No label found")
+
+    accuracy = correct / total
+
+    print(f"Accuracy: {accuracy}")
+    # result = process_image(
+    #     "../Dataset/Vehicles/0009.jpg", knn_model, threshold)
+    # print(f"Result: {result}")
+    # print(f"Expected: {labels['label'][9]}")
+
+    # accuracy_score(labels['label'], result)
+    # print(f"Result: {result}")

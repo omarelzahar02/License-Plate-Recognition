@@ -427,11 +427,11 @@ def save_good_images():
 
 
 if __name__ == "__main__":
-    # pe = PlateExtraction()
-    # pe.set_debug(True)
-    # pe.set_image_path("Dataset\\Vehicles\\0222.jpg")
-    # pe.process()
-    pickRandomNImagesAndExtractAndShow(10)
+    pe = PlateExtraction()
+    pe.set_debug(True)
+    pe.set_image_path("..\\Dataset\\Vehicles\\0009.jpg")
+    pe.process()
+    # pickRandomNImagesAndExtractAndShow(10)
     # pe.save_plate_img("Results\\plate.jpg")
     # compare_with_dataset()
     # save_good_images()
