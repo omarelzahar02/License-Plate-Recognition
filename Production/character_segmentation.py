@@ -1,12 +1,15 @@
 import cv2
 import numpy as np
 import imutils
+
+from commonfunctions import show_images
 from plate_extraction import PlateExtraction, Verbosity
 
 
 class CharacterSegmentation:
     def __init__(self, image, verbosity=Verbosity.QUIET):
         self.verbosity = verbosity
+        self.set_original_image(image)
         self.set_image(image)
         self.sharp_image = None
         self.rectangles = []
@@ -15,6 +18,10 @@ class CharacterSegmentation:
     def set_image(self, image):
         self.image = cv2.resize(image, (600, 400))
         self.gray = cv2.cvtColor(self.image, cv2.COLOR_BGR2GRAY)
+
+    def set_original_image(self, image):
+        self.original_image = image.copy()
+        self.original_gray = cv2.cvtColor(self.original_image, cv2.COLOR_BGR2GRAY)
 
     def set_unique_title(self, uniqueTitle):
         self.uniqueTitle = uniqueTitle
@@ -119,13 +126,41 @@ class CharacterSegmentation:
         self.show_image("Final Rectangles", img_copy)
 
         return final_rectangles
+    def mask_plate(self):
+        img_threshold = cv2.threshold(self.original_gray, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)[1]
+
+        img_threshold = cv2.erode(img_threshold, np.ones((6, 6), np.uint8), iterations=1)
+        img_threshold = cv2.dilate(img_threshold, np.ones((1, 20), np.uint8), iterations=1)
+
+        contours, _ = cv2.findContours(img_threshold, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+        if len(contours) == 0:
+            print("No contours found.")
+            return self.original_gray
+        max_contour = max(contours, key=cv2.contourArea)
+        x, y, w, h = cv2.boundingRect(max_contour)
+
+        aspect_ratio = w / h
+        print(aspect_ratio)
+        if 2.2 < aspect_ratio < 5:
+            mask = np.zeros_like(self.original_gray)
+            cv2.rectangle(mask, (x, y), (x + w, y + h), (255, 255, 255), -1)
+            masked_image = cv2.bitwise_and(self.original_gray, mask)
+        else:
+            masked_image = self.original_gray
+            print("No colored part detected. The whole image will be used.")
+
+        masked_image = cv2.resize(masked_image, (600, 400))
+        self.show_image("Masked Image", masked_image)
+
+        return masked_image
 
     def preprocess(self):
         self.show_image("Plate", self.image)
         self.show_image("Gray Plate", self.gray)
 
+        masked_image = self.mask_plate()
         # Apply unsharp mask to strength the edges
-        self.sharp_image = self.unsharp_mask(self.gray, 10, 5)
+        self.sharp_image = self.unsharp_mask(masked_image, 10, 5)
         self.show_image("Sharpened", self.sharp_image)
 
         # Remove noise and enhance characters

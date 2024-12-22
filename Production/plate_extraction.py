@@ -226,7 +226,7 @@ class PlateExtraction:
         if self.plate:
             x, y, w, h = self.plate
             return self.image[y:y+h, x:x+w]
-        return None
+        return self.image
 
     def get_plate_data(self):
         if self.plate:

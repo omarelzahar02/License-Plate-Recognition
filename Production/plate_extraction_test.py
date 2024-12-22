@@ -1,3 +1,5 @@
+import cv2
+
 from plate_extraction import PlateExtraction, Verbosity
 import os
 import numpy as np
@@ -44,6 +46,7 @@ def compare_with_dataset():
             good_path.append(f"Dataset\\Vehicles\\{i:04d}.jpg")
             # pe.save_plate_img(f"Results1\\{i:04d}.jpg")
             print("Match")
+            cv2.imwrite(f"..\\GoodImages2\\{i:04d}.jpg", pe.image)
         else:
             cntNotFound += 1
             print("Not Match")
@@ -104,7 +107,9 @@ def get_corresponding_label_data(imgPath):
 def save_good_images():
     pe = PlateExtraction()
     pe.set_verbosity(False)
-    dir = "Good_Images"
+    dir = "..\\Good_Images1"
+    if not os.path.exists(dir):
+        os.makedirs(dir)
     labelDir = "Dataset\\Vehicles"
     for filename in os.listdir(dir):
         if filename.endswith(".jpg"):
