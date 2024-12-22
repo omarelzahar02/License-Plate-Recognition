@@ -36,9 +36,9 @@ class PlateExtraction:
         self.contoursCnt = contoursCnt
 
     def show_image(self, title, image, wait=False, Important=True):
-        if (self.verbosity == Verbosity.DEBUG and Important) or self.verbosity == Verbosity.ALL_STEPS:
+        if (self.verbosity == Verbosity.DEBUG and Important) or self.verbosity & Verbosity.ALL_STEPS:
             cv2.imshow(self.uniqueTitle + " " + title, image)
-            if wait or self.verbosity == Verbosity.WAIT_ON_EACH_STEP:
+            if wait or self.verbosity & Verbosity.WAIT_ON_EACH_STEP:
                 cv2.waitKey(0)
 
     def set_image(self, image):
@@ -231,8 +231,8 @@ class PlateExtraction:
     def get_plate_data(self):
         if self.plate:
             x, y, w, h = self.plate
-            x -= 0.1 * w
-            y -= 0.1 * h
+            # x -= 0.1 * w
+            # y -= 0.1 * h
             # w += 20
             # h += 20
             # divide by the width and height of the image
