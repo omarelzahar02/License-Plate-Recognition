@@ -2,7 +2,6 @@ import cv2
 import numpy as np
 import imutils
 
-from commonfunctions import show_images
 from plate_extraction import PlateExtraction, Verbosity
 
 
@@ -21,7 +20,8 @@ class CharacterSegmentation:
 
     def set_original_image(self, image):
         self.original_image = image.copy()
-        self.original_gray = cv2.cvtColor(self.original_image, cv2.COLOR_BGR2GRAY)
+        self.original_gray = cv2.cvtColor(
+            self.original_image, cv2.COLOR_BGR2GRAY)
 
     def set_unique_title(self, uniqueTitle):
         self.uniqueTitle = uniqueTitle
@@ -43,22 +43,6 @@ class CharacterSegmentation:
         candidate_rectangles = self.find_and_draw_rectangles(threshold_image)
         filled_image = self.fill_rectangles(candidate_rectangles)
         self.rectangles = self.select_good_rectangles_and_draw(filled_image)
-
-    # def find_and_draw_contours(self, image):
-    #     contours = cv2.findContours(
-    #         image.copy(), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
-    #     contours = imutils.grab_contours(contours)
-
-    #     img_cpy = self.image.copy()
-
-    #     for c in contours:
-    #         (x, y, w, h) = cv2.boundingRect(c)
-    #         rand_color = np.random.randint(0, 255, size=3).tolist()
-    #         cv2.rectangle(img_cpy, (x, y), (x + w, y + h), rand_color, 2)
-
-    #     self.show_image("All Contours", img_cpy)
-
-    #     return contours
 
     def find_and_draw_rectangles(self, image):
         connectedComponents = cv2.connectedComponentsWithStats(
@@ -126,28 +110,30 @@ class CharacterSegmentation:
         self.show_image("Final Rectangles", img_copy)
 
         return final_rectangles
+
     def mask_plate(self):
-        img_threshold = cv2.threshold(self.original_gray, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)[1]
+        img_threshold = cv2.threshold(
+            self.original_gray, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)[1]
 
-        img_threshold = cv2.erode(img_threshold, np.ones((6, 6), np.uint8), iterations=1)
-        img_threshold = cv2.dilate(img_threshold, np.ones((1, 20), np.uint8), iterations=1)
+        img_threshold = cv2.erode(
+            img_threshold, np.ones((6, 6), np.uint8), iterations=1)
+        img_threshold = cv2.dilate(
+            img_threshold, np.ones((1, 20), np.uint8), iterations=1)
 
-        contours, _ = cv2.findContours(img_threshold, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+        contours, _ = cv2.findContours(
+            img_threshold, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
         if len(contours) == 0:
-            print("No contours found.")
             return self.original_gray
         max_contour = max(contours, key=cv2.contourArea)
         x, y, w, h = cv2.boundingRect(max_contour)
 
         aspect_ratio = w / h
-        print(aspect_ratio)
         if 2.2 < aspect_ratio < 5:
             mask = np.zeros_like(self.original_gray)
             cv2.rectangle(mask, (x, y), (x + w, y + h), (255, 255, 255), -1)
             masked_image = cv2.bitwise_and(self.original_gray, mask)
         else:
             masked_image = self.original_gray
-            print("No colored part detected. The whole image will be used.")
 
         masked_image = cv2.resize(masked_image, (600, 400))
         self.show_image("Masked Image", masked_image)
@@ -159,6 +145,7 @@ class CharacterSegmentation:
         self.show_image("Gray Plate", self.gray)
 
         masked_image = self.mask_plate()
+
         # Apply unsharp mask to strength the edges
         self.sharp_image = self.unsharp_mask(masked_image, 10, 5)
         self.show_image("Sharpened", self.sharp_image)

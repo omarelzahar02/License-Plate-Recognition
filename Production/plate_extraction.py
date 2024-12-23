@@ -8,7 +8,7 @@ class Verbosity:
     QUIET = 0
     DEBUG = 1
     ALL_STEPS = 2
-    WAIT_ON_EACH_STEP = 3
+    WAIT_ON_EACH_STEP = 4
 
 
 class PlateExtraction:
@@ -48,7 +48,7 @@ class PlateExtraction:
                                          cv2.getStructuringElement(cv2.MORPH_RECT, (13, 4)))
 
     def set_image_path(self, path):
-        image_colored = cv2.imread(path)
+        image_colored = cv2.imread(path, cv2.IMREAD_COLOR)
         self.set_image(image_colored)
         img_title = path.split("\\")[-1]
         self.set_unique_title(img_title)

@@ -1,0 +1,2553 @@
+Processing image: 1
+Result: سطن٦٢١٧
+Expected: سطن١٢٦٧
+Correct
+Processing image: 5
+Result: ط٢أ٣أ٤٨
+Expected: سم٢٣٤٨
+Incorrect
+Processing image: 6
+Result: طسم٢٣٤٨
+Expected: سطم٢٣٤٨
+Correct
+Processing image: 11
+Result: أنع٩١٨
+Expected: أعن١٨٩
+Correct
+Processing image: 12
+Result: مند٤٥
+Expected: من٢٤٥٦
+Incorrect
+Processing image: 13
+Result: ھأقھ٦٧٤
+Expected: أق٤٦٧ھ
+Incorrect
+Processing image: 14
+Result: روى١٥٨٤
+Expected: روى١٤٥٨
+Correct
+Processing image: 15
+Result: روى١٥٨٤
+Expected: روى١٤٥٨
+Correct
+Processing image: 16
+Result: سوف٨٩٤٥
+Expected: سفو٤٥٨٩
+Correct
+Processing image: 17
+Result: أأ
+Expected: بد٣٤٤٦
+Incorrect
+Processing image: 18
+Result: 
+Expected: عقى٣٤٦٨
+Incorrect
+Processing image: 19
+Result: عىق٣٨٤ج٦
+Expected: عقى٣٤٦٨
+Incorrect
+Processing image: 20
+Result: 
+Expected: دع٢٣٥٨
+Incorrect
+Processing image: 21
+Result: رسىع٧٤٦أم
+Expected: رعى١٤٦٧
+Incorrect
+Processing image: 26
+Result: ٥د١١٤٢
+Expected: دصق١١٢٤
+Incorrect
+Processing image: 27
+Result: صقد١١٤٢
+Expected: دصق١١٢٤
+Correct
+Processing image: 28
+Result: فد١١٤٢
+Expected: دصق١١٢٤
+Incorrect
+Processing image: 33
+Result: جق٨٩٢٤
+Expected: جق٢٤٨٩
+Correct
+Processing image: 35
+Result: ١ق
+Expected: أسن١٣٥
+Incorrect
+Processing image: 36
+Result: دفق٥٣٤٩
+Expected: دفق٣٤٥٩
+Correct
+Processing image: 38
+Result: س٢
+Expected: س٢
+Correct
+Processing image: 46
+Result: موھ٦٦٦٦
+Expected: مو٦٦٦٦ھ
+Correct
+Processing image: 47
+Result: عس١
+Expected: سع١
+Correct
+Processing image: 48
+Result: ووع٥١٥
+Expected: وو١٥٥
+Incorrect
+Processing image: 49
+Result: 
+Expected: ووو٥٥٥
+Incorrect
+Processing image: 50
+Result: 
+Expected: ١٥٥
+Incorrect
+Processing image: 51
+Result: 
+Expected: برع١
+Incorrect
+Processing image: 53
+Result: ىجل٥٥٥٥
+Expected: جلى٥٥٥٥
+Correct
+Processing image: 54
+Result: على١٨٨٨
+Expected: على٨٨٨
+Incorrect
+Processing image: 58
+Result: ط٢٨
+Expected: سطو٢٨٩
+Incorrect
+Processing image: 59
+Result: دلع٤٤٤
+Expected: دعل٤٤٤
+Correct
+Processing image: 63
+Result: ل٧دج
+Expected: منو١١١١
+Incorrect
+Processing image: 64
+Result: سىد٩٩٩
+Expected: دسى٩٩٩
+Correct
+Processing image: 66
+Result: جبل٦٦٦
+Expected: بجل٦٦٦٦
+Incorrect
+Processing image: 69
+Result: أأأ
+Expected: أأأ١
+Incorrect
+Processing image: 71
+Result: 
+Expected: ر١١١
+Incorrect
+Processing image: 72
+Result: م
+Expected: رصم٢
+Incorrect
+Processing image: 76
+Result: 
+Expected: رسن٧
+Incorrect
+Processing image: 77
+Result: ٥٥٥٥
+Expected: أدس٥٥٥٥
+Incorrect
+Processing image: 78
+Result: 
+Expected: دعل٢٢٢٢
+Incorrect
+Processing image: 79
+Result: مم٥
+Expected: مم٥
+Correct
+Processing image: 80
+Result: ج
+Expected: س٢
+Incorrect
+Processing image: 81
+Result: ١
+Expected: سسس٦
+Incorrect
+Processing image: 82
+Result: أسد٤١٤
+Expected: أدس١٤٤
+Correct
+Processing image: 84
+Result: بدر٨٨٨٨
+Expected: بدر٨٨٨٨
+Correct
+Processing image: 85
+Result: دلع٤٤٤٤
+Expected: دعل٤٤٤٤
+Correct
+Processing image: 86
+Result: بى٥٥٥
+Expected: بى٥٥٥٥
+Incorrect
+Processing image: 87
+Result: مأ٧٧٧٧
+Expected: أم٧٧٧٧
+Correct
+Processing image: 89
+Result: نصر٧٧٧٧
+Expected: رصن٧٧٧٧
+Correct
+Processing image: 91
+Result: ججج٨٨٨٨
+Expected: ججج٨٨٨٨
+Correct
+Processing image: 92
+Result: ٦٦
+Expected: م٦٦٦٦ھ
+Incorrect
+Processing image: 93
+Result: جبل٥
+Expected: بجل٥
+Correct
+Processing image: 94
+Result: جبل١١١
+Expected: بجل١١١
+Correct
+Processing image: 96
+Result: أ
+Expected: م٣
+Incorrect
+Processing image: 97
+Result: عھ٧٧٧
+Expected: ع٧٧٧٧ھ
+Incorrect
+Processing image: 100
+Result: جدع٦٥٧
+Expected: جدع٥٦٧
+Correct
+Processing image: 101
+Result: ررر٦٦٦
+Expected: ررر٦٦٦
+Correct
+Processing image: 102
+Result: سد١١١١
+Expected: أدس١١١١
+Incorrect
+Processing image: 106
+Result: قمر٢١٢١
+Expected: رقم١١٢٢
+Correct
+Processing image: 107
+Result: ررر٣٣٣٣
+Expected: ررر٣٣٣٣
+Correct
+Processing image: 108
+Result: أأ١١
+Expected: أأ١١
+Correct
+Processing image: 109
+Result: صصص٦٦٦
+Expected: صصص٦٦٦
+Correct
+Processing image: 111
+Result: على٧٧٧٧
+Expected: على٧٧٧٧
+Correct
+Processing image: 112
+Result: ممم١
+Expected: ممم١
+Correct
+Processing image: 115
+Result: ٥
+Expected: أرس٥٥٥
+Incorrect
+Processing image: 116
+Result: أأأ٧٧٧
+Expected: أأأ٧٧٧٧
+Incorrect
+Processing image: 119
+Result: ھس١
+Expected: س١ھ
+Correct
+Processing image: 122
+Result: ٨٦٦٦٦
+Expected: دمو٦٦٦٦
+Incorrect
+Processing image: 124
+Result: فأع٦
+Expected: دعل٦٦٦٦
+Incorrect
+Processing image: 126
+Result: سأأ١١١١
+Expected: أأس١١١١
+Correct
+Processing image: 127
+Result: ننلس٤٤
+Expected: ننن٤٤٤
+Incorrect
+Processing image: 129
+Result: ١
+Expected: دعل٥٥٥
+Incorrect
+Processing image: 132
+Result: عد١
+Expected: سنى١
+Incorrect
+Processing image: 133
+Result: مبم٩٩٩
+Expected: بمم٩٩٩
+Correct
+Processing image: 135
+Result: 
+Expected: ددد٥٥٥٥
+Incorrect
+Processing image: 136
+Result: ٦ججج٤٤٤
+Expected: ججج٤٤٤
+Incorrect
+Processing image: 139
+Result: مس٤٤
+Expected: سم٤٤٤٤
+Incorrect
+Processing image: 144
+Result: ٩م
+Expected: ممم٤٤٤٤
+Incorrect
+Processing image: 145
+Result: على٣٣٣
+Expected: على٣٣٣
+Correct
+Processing image: 148
+Result: م٧نع
+Expected: ععع٢٢٢٢
+Incorrect
+Processing image: 149
+Result: ٨٨٨
+Expected: جدم٨٨٨
+Incorrect
+Processing image: 151
+Result: وأم٧٧٧
+Expected: أم٧٧٧ھ
+Incorrect
+Processing image: 152
+Result: أمم١
+Expected: أمم١
+Correct
+Processing image: 154
+Result: ٢٢١
+Expected: ممم٢٢٢
+Incorrect
+Processing image: 155
+Result: ددد٦٦٦٦
+Expected: ددد٦٦٦٦
+Correct
+Processing image: 157
+Result: وو٦٦٦٦
+Expected: وو٦٦٦٦
+Correct
+Processing image: 158
+Result: أأ١
+Expected: أأ١
+Correct
+Processing image: 159
+Result: ١
+Expected: سس١
+Incorrect
+Processing image: 160
+Result: 
+Expected: دسى٧٧٧
+Incorrect
+Processing image: 161
+Result: أدم١١١١
+Expected: أدم١١١١
+Correct
+Processing image: 165
+Result: ھم٥٥٥٥
+Expected: أم٥٥٥٥ھ
+Incorrect
+Processing image: 166
+Result: ععع٩٩٩
+Expected: ععع٩٩٩
+Correct
+Processing image: 167
+Result: نور٤٤٤
+Expected: رنو٤٤٤
+Correct
+Processing image: 168
+Result: سىد٩٩٩
+Expected: دسى٩٩٩
+Correct
+Processing image: 171
+Result: أدم٦٦٦٦
+Expected: أدم٦٦٦٦
+Correct
+Processing image: 174
+Result: جھج٢٢٢٢
+Expected: جج٢٢٢٢ھ
+Correct
+Processing image: 176
+Result: 
+Expected: جد١ھ
+Incorrect
+Processing image: 177
+Result: أ١
+Expected: أأ١
+Incorrect
+Processing image: 178
+Result: ١
+Expected: صص١١
+Incorrect
+Processing image: 180
+Result: ١
+Expected: أ١
+Incorrect
+Processing image: 181
+Result: عسل٣٣٣
+Expected: سعل٣٣٣
+Correct
+Processing image: 182
+Result: ولع٦٦٦
+Expected: علو٦٦٦
+Correct
+Processing image: 183
+Result: طلق٦٦ج
+Expected: طقل٦٦٦
+Incorrect
+Processing image: 184
+Result: ججج٤٤٤٤
+Expected: ججج٤٤٤٤
+Correct
+Processing image: 185
+Result: صس٢٢
+Expected: صص٢٢٢٢
+Incorrect
+Processing image: 186
+Result: أ٧ج
+Expected: م١
+Incorrect
+Processing image: 187
+Result: أأأ١
+Expected: أأأ١
+Correct
+Processing image: 191
+Result: ددد١١١
+Expected: ددد١١١
+Correct
+Processing image: 193
+Result: دفل٦٦٦
+Expected: دفل٦٦٦
+Correct
+Processing image: 194
+Result: نسر٩٩٩٩
+Expected: رصن٩٩٩٩
+Incorrect
+Processing image: 202
+Result: نسد١
+Processing image: 205
+Result: 
+Processing image: 207
+Result: ھس١١١١
+Processing image: 208
+Result: ر١
+Processing image: 213
+Result: ووو٤٤٤٤١
+Processing image: 214
+Result: نجم٦٦٦٦
+Processing image: 216
+Result: س٤ع
+Processing image: 220
+Result: جج٦٦٦٦
+Processing image: 221
+Result: ددد
+Processing image: 222
+Result: و١١
+Processing image: 224
+Result: أسد١
+Processing image: 226
+Result: 
+Processing image: 228
+Result: رعب٢٢٢
+Processing image: 232
+Result: أھم١
+Processing image: 234
+Result: ھن١١
+Processing image: 235
+Result: ولع٦٦٦
+Processing image: 239
+Result: سف١٥١٥
+Processing image: 242
+Result: روقأ٦٦٦٦
+Processing image: 245
+Result: سس١
+Processing image: 246
+Result: ممم٤١٤٩
+Processing image: 247
+Result: صص١١
+Processing image: 251
+Result: نسر١١١١
+Processing image: 255
+Result: ردد٦٦٦٦
+Processing image: 256
+Result: مطر٦٦٦
+Processing image: 258
+Result: لنل٦
+Processing image: 260
+Result: صص١١
+Expected: صص١١
+Correct
+Processing image: 261
+Result: فھد٢٢٢٢
+Expected: دف٢٢٢٢ھ
+Correct
+Processing image: 273
+Result: ر
+Expected: أع١
+Incorrect
+Processing image: 276
+Result: قمس١١١١
+Expected: سم١١١١
+Incorrect
+Processing image: 278
+Result: أھم١
+Expected: أ١ھ
+Incorrect
+Processing image: 279
+Result: ىى١٦٦٦٦
+Expected: ىى٦٦٦٦
+Incorrect
+Processing image: 280
+Result: 
+Expected: أأ١
+Incorrect
+Processing image: 282
+Result: فرس١١١١
+Expected: رسف١١١١
+Correct
+Processing image: 283
+Result: 
+Expected: أ١
+Incorrect
+Processing image: 284
+Result: نب١١١١
+Expected: أب١١١١
+Incorrect
+Processing image: 288
+Result: نس١
+Expected: أسن١
+Incorrect
+Processing image: 290
+Result: بطل١
+Expected: بطل١
+Correct
+Processing image: 292
+Result: أ١٢
+Expected: أأ١١١
+Incorrect
+Processing image: 298
+Result: أ١١١
+Expected: أ١١١
+Correct
+Processing image: 300
+Result: ٣٣
+Expected: أأ١١
+Incorrect
+Processing image: 302
+Result: بول١
+Expected: طنو١
+Incorrect
+Processing image: 303
+Result: جوو٣٢١
+Expected: جوو١٢٣
+Correct
+Processing image: 307
+Result: 
+Expected: ففف١١١١
+Incorrect
+Processing image: 311
+Result: فمھر٦٦٦٦
+Expected: رم٦٦٦٦ھ
+Incorrect
+Processing image: 313
+Result: ٤٩٩٩
+Expected: سسس٥
+Incorrect
+Processing image: 316
+Result: نب٩٩٩٩
+Expected: بن٩٩٩٩
+Correct
+Processing image: 320
+Result: ١٩
+Expected: أدس٢
+Incorrect
+Processing image: 321
+Result: قق١١١١
+Expected: قق١١١١
+Correct
+Processing image: 322
+Result: أ١١١
+Expected: أ١١١
+Correct
+Processing image: 324
+Result: بطل٧٧٧٧
+Expected: بطل٧٧٧٧
+Correct
+Processing image: 325
+Result: سمر٧٩٩١
+Expected: رسم١٧٩٩
+Correct
+Processing image: 330
+Result: ١
+Expected: عف١
+Incorrect
+Processing image: 332
+Result: بطل١١١١
+Expected: بطل١١١١
+Correct
+Processing image: 334
+Result: مھمأ٢٢٢
+Expected: مم٢٢٢ھ
+Incorrect
+Processing image: 337
+Result: 
+Expected: بطل٧٧٧٧
+Incorrect
+Processing image: 340
+Result: سد١
+Expected: أدس١
+Incorrect
+Processing image: 342
+Result: عمر٩٩٩١
+Expected: رعم١٩٩٩
+Correct
+Processing image: 345
+Result: عسر٦٦٦٦
+Expected: رسن٦٦٦٦
+Incorrect
+Processing image: 349
+Result: بطل١١١
+Expected: بطل١١١
+Correct
+Processing image: 353
+Result: 
+Expected: بطل٧٧٧٧
+Incorrect
+Processing image: 358
+Result: ع٤
+Expected: ع٤
+Correct
+Processing image: 360
+Result: 
+Expected: ببو٩٩٩٩
+Incorrect
+Processing image: 361
+Result: جبل١
+Expected: بجل١
+Correct
+Processing image: 363
+Result: رجب٥٥٥٥٩
+Expected: بجر٥٥٥٥
+Incorrect
+Processing image: 364
+Result: مع٦٦٦٦
+Expected: عم٦٦٦٦
+Correct
+Processing image: 371
+Result: مع٦٦٦٦
+Expected: عم٦٦٦٦
+Correct
+Processing image: 375
+Result: ججج٨٨٨٨
+Expected: ججج٨٨٨٨
+Correct
+Processing image: 376
+Result: سطسس
+Expected: و١١
+Incorrect
+Processing image: 377
+Result: دفل٦٦٦
+Expected: دفل٦٦٦
+Correct
+Processing image: 380
+Result: جنى١
+Expected: جنى١
+Correct
+Processing image: 382
+Result: ممم١
+Expected: ممم١
+Correct
+Processing image: 385
+Result: مصر٢٢٢٢
+Expected: رصم٢٢٢٢
+Correct
+Processing image: 387
+Result: 
+Expected: رنو٣٣٣٣
+Incorrect
+Processing image: 388
+Result: أأ١١١ر
+Expected: أأ١١١
+Incorrect
+Processing image: 392
+Result: ططط٧٧٧٧
+Expected: ططط٧٧٧٧
+Correct
+Processing image: 397
+Result: ف١
+Expected: ف١
+Correct
+Processing image: 399
+Result: نجم٩٩٩
+Expected: جمن٩٩٩
+Correct
+Processing image: 400
+Result: جبل١
+Expected: بجل١
+Correct
+Processing image: 402
+Result: صقر٩٩٩٩
+Expected: رصق٩٩٩٩
+Correct
+Processing image: 406
+Result: عىد١١١١
+Expected: دعى١١١١
+Correct
+Processing image: 409
+Result: مم٣٣٣٣
+Expected: مم٣٣٣٣
+Correct
+Processing image: 410
+Result: أمى٧٧٧
+Expected: أمى٧٧٧
+Correct
+Processing image: 414
+Result: رىس١
+Expected: رسى١
+Correct
+Processing image: 415
+Result: رىس١١١
+Expected: رسى١١١
+Correct
+Processing image: 418
+Result: م
+Expected: رصم٣
+Incorrect
+Processing image: 420
+Result: م١
+Expected: ١ھھھ
+Incorrect
+Processing image: 423
+Result: ٦ق٤٤٤
+Expected: رقم٤٤٤٤
+Incorrect
+Processing image: 424
+Result: أ
+Expected: أب١١١ھ
+Incorrect
+Processing image: 427
+Result: 
+Expected: ب١ھ
+Incorrect
+Processing image: 428
+Result: سىد٥١١١١
+Expected: دسى١١١١
+Incorrect
+Processing image: 431
+Result: أأدم٦٦٦٦
+Expected: أدم٦٦٦٦
+Incorrect
+Processing image: 433
+Result: قمر٥٥٥
+Expected: رقم٥٥٥
+Correct
+Processing image: 434
+Result: مر٦٦٦
+Expected: رم٦٦٦٦
+Incorrect
+Processing image: 435
+Result: 
+Expected: د١
+Incorrect
+Processing image: 437
+Result: ٥ىى١١١١
+Expected: ىىى٣٣٣٣
+Incorrect
+Processing image: 439
+Result: قصر٦٦٦
+Expected: رصق٦٦٦
+Correct
+Processing image: 440
+Result: ھأم٣٣٣٣
+Expected: أم٣٣٣٣ھ
+Correct
+Processing image: 441
+Result: ٣٥
+Expected: عف١
+Incorrect
+Processing image: 442
+Result: 
+Expected: أبو١
+Incorrect
+Processing image: 446
+Result: مأ٧س
+Expected: أم٧
+Incorrect
+Processing image: 447
+Result: رىس٦٦٦٦
+Expected: رسى٦٦٦٦
+Correct
+Processing image: 454
+Result: سس٢٢٢٢
+Expected: سس٢٢٢٢
+Correct
+Processing image: 456
+Result: 
+Expected: جدم١
+Incorrect
+Processing image: 458
+Result: نمس٦٦٦٦
+Expected: سمن٦٦٦٦
+Correct
+Processing image: 460
+Result: ىىى٩٩٩
+Expected: ىىى٩٩٩
+Correct
+Processing image: 461
+Result: ععأ٤ج
+Expected: عع٤
+Incorrect
+Processing image: 462
+Result: نور٩٩٩٩
+Expected: رنو٩٩٩٩
+Correct
+Processing image: 464
+Result: جبل٦٦٦
+Expected: بجل٦٦٦
+Correct
+Processing image: 467
+Result: 
+Expected: رصم٢٢٢٢
+Incorrect
+Processing image: 469
+Result: رىس١١١
+Expected: رسى١١١
+Correct
+Processing image: 471
+Result: سم٦٦٦٦
+Expected: سم٦٦٦٦
+Correct
+Processing image: 474
+Result: نصر١١١١
+Expected: رصن١١١١
+Correct
+Processing image: 475
+Result: جج٦٦٦٦
+Expected: جج٦٦٦٦
+Correct
+Processing image: 481
+Result: ٧جج٦٦٦٦
+Expected: جج٦٦٦٦
+Incorrect
+Processing image: 486
+Result: ھرمس١١١
+Expected: رم١١١ھ
+Incorrect
+Processing image: 490
+Result: ىد٥٥
+Expected: مى٥٥٥٥
+Incorrect
+Processing image: 493
+Result: عمصر١١١١
+Expected: رصم١١١١
+Incorrect
+Processing image: 497
+Result: بل٩٥٩٩
+Expected: بطل٥٩٩
+Incorrect
+Processing image: 498
+Result: ١مھم٦٦٦
+Expected: مم٦٦٦ھ
+Incorrect
+Processing image: 499
+Result: ور٨٨٨٨
+Expected: رنو٨٨٨٨
+Incorrect
+Processing image: 500
+Result: رھس١
+Expected: س١ھ
+Incorrect
+Processing image: 504
+Result: ھھ١
+Expected: ١ھھ
+Correct
+Processing image: 505
+Result: ھ
+Expected: منى١١١
+Incorrect
+Processing image: 506
+Result: 
+Expected: طقل٦٦٦
+Incorrect
+Processing image: 507
+Result: ر١
+Expected: ر١
+Correct
+Processing image: 513
+Result: نصر١١١١
+Expected: رصن١١١١
+Correct
+Processing image: 517
+Result: سس١١١٧
+Expected: سس٣٣٣٣
+Incorrect
+Processing image: 519
+Result: قوى٨٨٨٨
+Expected: قوى٨٨٨٨
+Correct
+Processing image: 531
+Result: ٣
+Expected: ع٤
+Incorrect
+Processing image: 533
+Result: ٤
+Expected: رصق٦٦٦
+Incorrect
+Processing image: 534
+Result: ر١١١
+Expected: ر١١١
+Correct
+Processing image: 535
+Result: بطل١
+Expected: بطل١
+Correct
+Processing image: 537
+Result: أنس١
+Expected: أسن١
+Correct
+Processing image: 546
+Result: م١١١
+Expected: أ١١١
+Incorrect
+Processing image: 547
+Result: منص٦٦٦٦
+Expected: صمن٦٦٦٦
+Correct
+Processing image: 548
+Result: نور٤٤٤
+Expected: رنو٤٤٤
+Correct
+Processing image: 550
+Result: روق٦٦٦٦
+Expected: رقو٦٦٦٦
+Correct
+Processing image: 554
+Result: 
+Expected: عف٢
+Incorrect
+Processing image: 586
+Result: ج
+Expected: دسع٥
+Incorrect
+Processing image: 588
+Result: مر١١١١
+Expected: رم١١١١
+Correct
+Processing image: 593
+Result: أھم٢٢٢٢
+Expected: أم٢٢٢٢ھ
+Correct
+Processing image: 603
+Result: ععقأق
+Expected: ىىى٢٢٢٢
+Incorrect
+Processing image: 610
+Result: مسم٧٧٧
+Expected: سمم٧٧٧
+Correct
+Processing image: 612
+Result: جج٢
+Expected: جج٢
+Correct
+Processing image: 613
+Result: سنم١٣١
+Processing image: 619
+Result: مسم٧٧٧
+Expected: سمم٧٧٧
+Correct
+Processing image: 621
+Result: 
+Processing image: 629
+Result: سلد٧٧٧٧
+Expected: صق٧٧٧٧
+Incorrect
+Processing image: 634
+Result: ى
+Expected: ى١
+Incorrect
+Processing image: 635
+Result: جو١٣٥٩
+Expected: جو١٣٥٩
+Correct
+Processing image: 636
+Result: مفف٣٥٤
+Expected: ففم٣٤٥
+Correct
+Processing image: 637
+Result: 
+Expected: أر٤٤٤٤
+Incorrect
+Processing image: 638
+Result: ٩
+Expected: دسع٥
+Incorrect
+Processing image: 639
+Result: 
+Expected: قن٢٥٧٨
+Incorrect
+Processing image: 640
+Result: 
+Expected: ققل٧٧٧٧
+Incorrect
+Processing image: 652
+Result: ببب٨٨٨٨
+Expected: ببب٨٨٨٨
+Correct
+Processing image: 654
+Result: ط١
+Expected: جمن١
+Incorrect
+Processing image: 659
+Result: ١١
+Expected: ف١١
+Incorrect
+Processing image: 660
+Result: مر٦٦٦٦
+Expected: رم٦٦٦٦
+Correct
+Processing image: 665
+Result: روعبب٩٥
+Expected: أبر٥٧٩
+Incorrect
+Processing image: 670
+Result: 
+Expected: سس١
+Incorrect
+Processing image: 672
+Result: 
+Expected: أ٩
+Incorrect
+Processing image: 676
+Result: أ١١١
+Expected: أ١١١
+Correct
+Processing image: 679
+Result: أدمج١١
+Expected: أدم١١١١
+Incorrect
+Processing image: 681
+Result: ھ
+Expected: رمى١
+Incorrect
+Processing image: 685
+Result: جبل٧٧٧
+Expected: بجل٧٧٧
+Correct
+Processing image: 694
+Result: بوب٥٥٥
+Expected: ببو٥٥٥٥
+Incorrect
+Processing image: 698
+Result: ىىى١٢٢٢٢
+Expected: ىىى٢٢٢٢
+Incorrect
+Processing image: 704
+Result: أھم٥٥٥٥
+Expected: أم٥٥٥٥ھ
+Correct
+Processing image: 709
+Result: سسس١١١١
+Expected: سسس١١١١
+Correct
+Processing image: 718
+Result: ١ووو٤٣٢١
+Expected: ووو١٢٣٤
+Incorrect
+Processing image: 719
+Result: صس٢٢
+Expected: صص٢٢٢٢
+Incorrect
+Processing image: 722
+Result: مممھ١
+Expected: ممم١
+Incorrect
+Processing image: 723
+Result: 
+Expected: أ٨
+Incorrect
+Processing image: 727
+Result: سسد١
+Expected: أدس١
+Incorrect
+Processing image: 729
+Result: ل
+Expected: مم٦٦ھ
+Incorrect
+Processing image: 733
+Result: ھس١١١١
+Expected: س١١١١ھ
+Correct
+Processing image: 738
+Result: أ
+Expected: أع١
+Incorrect
+Processing image: 739
+Result: منع٣
+Expected: أع١
+Incorrect
+Processing image: 741
+Result: ١أ
+Expected: أع١
+Incorrect
+Processing image: 742
+Result: ص٨٨٨
+Processing image: 745
+Result: ھ
+Expected: ١ھ
+Incorrect
+Processing image: 750
+Result: ٨سسأ
+Expected: سس١
+Incorrect
+Processing image: 752
+Result: أسس
+Expected: سس١
+Incorrect
+Processing image: 755
+Result: مر
+Expected: رصم١
+Incorrect
+Processing image: 760
+Result: ددد١١١
+Expected: ددد١١١
+Correct
+Processing image: 762
+Result: دفل٦٦٦
+Expected: دفل٦٦٦
+Correct
+Processing image: 764
+Result: ٥طر٦٦٦
+Expected: رطم٦٦٦
+Incorrect
+Processing image: 766
+Result: نجمط٣٣٣٣
+Expected: جمن٣٣٣٣
+Incorrect
+Processing image: 769
+Result: سسس١٩٩١
+Expected: سسس١١٩٩
+Correct
+Processing image: 771
+Result: ھس١١١١
+Expected: س١١١١ھ
+Correct
+Processing image: 774
+Result: نجم٦٦٦٦
+Expected: جمن٦٦٦٦
+Correct
+Processing image: 776
+Result: جمى١١١
+Expected: جمى١١١
+Correct
+Processing image: 781
+Result: نسدھ١
+Expected: أدس١
+Incorrect
+Processing image: 782
+Result: ط٤
+Expected: أدس١
+Incorrect
+Processing image: 787
+Result: جمىج١١١
+Expected: جمى١١١
+Incorrect
+Processing image: 789
+Result: دفل٦٦٦
+Expected: دفل٦٦٦
+Correct
+Processing image: 803
+Result: جط
+Expected: د١
+Incorrect
+Processing image: 809
+Result: أقد
+Expected: رقو١١١١
+Incorrect
+Processing image: 817
+Result: مصر١
+Expected: رصم١
+Correct
+Processing image: 820
+Result: ولع٦٦٦
+Expected: علو٦٦٦
+Correct
+Processing image: 822
+Result: أدم٦٦٦٦
+Expected: أدم٦٦٦٦
+Correct
+Processing image: 823
+Result: أھم٥٥٥٥
+Expected: أم٥٥٥٥ھ
+Correct
+Processing image: 825
+Result: جبل١١١١
+Expected: بجل١١١١
+Correct
+Processing image: 831
+Result: 
+Expected: ١ھ
+Incorrect
+Processing image: 833
+Result: أ٣٥٤
+Processing image: 837
+Result: د١
+Expected: د١
+Correct
+Processing image: 838
+Result: رىم٢٢٢٢
+Expected: رمى٢٢٢٢
+Correct
+Processing image: 839
+Result: أ٥ى٦٦٦
+Expected: منى٦٦٦
+Incorrect
+Processing image: 857
+Result: ععع٢٢٢
+Expected: ععع٢٢٢
+Correct
+Processing image: 859
+Result: ل٣٣٣
+Expected: سعل٣٣٣
+Incorrect
+Processing image: 863
+Result: طط٩٩٨٨
+Expected: طط٨٨٩٩
+Correct
+Processing image: 864
+Result: ممم١
+Expected: ممم١
+Correct
+Processing image: 865
+Result: بطل٧٧٧٧
+Expected: بطل٧٧٧٧
+Correct
+Processing image: 869
+Result: ممم٥١
+Expected: ممم١
+Incorrect
+Processing image: 870
+Result: ممم١
+Expected: ممم١
+Correct
+Processing image: 874
+Result: بطل٧٧٧
+Expected: بطل٧٧٧٧
+Incorrect
+Processing image: 877
+Result: عمر٩٩٩٩
+Expected: رعم٩٩٩٩
+Correct
+Processing image: 878
+Result: ٩
+Expected: سسس٧
+Incorrect
+Processing image: 888
+Result: ھ١
+Expected: ١ھ
+Correct
+Processing image: 895
+Result: ققق٦٦٦
+Expected: ققق٦٦٦
+Correct
+Processing image: 897
+Result: مم٢
+Expected: مم٢
+Correct
+Processing image: 900
+Result: د٥أ٥
+Expected: ممم٥
+Incorrect
+Processing image: 901
+Result: وطن٥٥٥٥
+Expected: طنو٥٥٥٥
+Correct
+Processing image: 902
+Result: ممأ٥
+Expected: ممم٥
+Incorrect
+Processing image: 903
+Result: ط٨
+Expected: ىىى٥٥٥٥
+Incorrect
+Processing image: 908
+Result: ووو٤٤٤٤
+Expected: ووو٤٤٤٤
+Correct
+Processing image: 919
+Result: 
+Expected: ددد٥٥٥٥
+Incorrect
+Processing image: 921
+Result: ردد٥٥٥٥
+Expected: ددد٥٥٥٥
+Incorrect
+Processing image: 928
+Result: نجم٦٦٦٦
+Expected: جمن٦٦٦٦
+Correct
+Processing image: 931
+Result: مسر١١١
+Expected: رسم١١١
+Correct
+Processing image: 933
+Result: دھب٦٦٦٦
+Expected: بد٦٦٦٦ھ
+Correct
+Processing image: 938
+Result: جج٦٦٦٦
+Expected: جج٦٦٦٦
+Correct
+Processing image: 940
+Result: أسد١
+Expected: أدس١
+Correct
+Processing image: 945
+Result: 
+Expected: مم٦٦٦ھ
+Incorrect
+Processing image: 952
+Result: ١
+Expected: ددد٧٧٧
+Incorrect
+Processing image: 954
+Result: 
+Expected: ددد٧٧٧
+Incorrect
+Processing image: 956
+Result: ٨ع
+Expected: دسى٨٨٨٨
+Incorrect
+Processing image: 961
+Result: 
+Expected: أم٣٣٣٣ھ
+Incorrect
+Processing image: 966
+Result: مم١
+Expected: مم٧
+Incorrect
+Processing image: 976
+Result: ددد٦٦٦٦
+Expected: ددد٦٦٦٦
+Correct
+Processing image: 980
+Result: صصص٦٦٦
+Expected: صصص٦٦٦
+Correct
+Processing image: 987
+Result: عمر٩٩٩أ
+Expected: رعم٩٩٩
+Incorrect
+Processing image: 988
+Result: مجد٦٦٦٦
+Expected: جدم٦٦٦٦
+Correct
+Processing image: 998
+Result: م
+Expected: طم١
+Incorrect
+Processing image: 1002
+Result: سعد١١١١
+Expected: دسع١١١١
+Correct
+Processing image: 1004
+Result: رعب٢٢٢
+Expected: برع٢٢٢
+Correct
+Processing image: 1007
+Result: ن
+Processing image: 1009
+Result: رم٥٥٥٥
+Expected: رم٥٥٥٥
+Correct
+Processing image: 1015
+Result: أھم١
+Expected: أم١ھ
+Correct
+Processing image: 1016
+Result: ھس
+Expected: رمى٦٦٦٦
+Incorrect
+Processing image: 1019
+Result: ٤
+Expected: صص١١
+Incorrect
+Processing image: 1020
+Result: أھم
+Expected: أم١ھ
+Incorrect
+Processing image: 1022
+Result: سس١
+Expected: سس١
+Correct
+Processing image: 1026
+Result: دلع٤٤٤٤
+Expected: دعل٤٤٤٤جدل١٢٣٧
+Incorrect
+Processing image: 1030
+Result: طلق٥٦٦٦
+Expected: طقل٦٦٦
+Incorrect
+Processing image: 1034
+Result: ٤عمط
+Expected: طعم٧٧٧٧
+Incorrect
+Processing image: 1038
+Result: نسر١١١١
+Expected: رسن١١١١
+Correct
+Processing image: 1047
+Result: ١١١
+Expected: جو١١١١
+Incorrect
+Processing image: 1053
+Result: سرأ٣٥أ
+Expected: د١
+Incorrect
+Processing image: 1056
+Result: 
+Processing image: 1059
+Result: نسر٦٦٦٦
+Expected: رسن٦٦٦٦
+Correct
+Processing image: 1063
+Result: صصد١١
+Expected: صص١١
+Incorrect
+Processing image: 1064
+Result: أھمد
+Expected: أم١ھ
+Incorrect
+Processing image: 1066
+Result: ١أھم١
+Expected: أم١ھ
+Incorrect
+Processing image: 1067
+Result: أسد٤٤٤٤
+Expected: أدس٤٤٤٤
+Correct
+Processing image: 1068
+Result: ففف٤٤٤
+Expected: ففف٤٤٤
+Correct
+Processing image: 1069
+Result: جب٦٦٦
+Expected: أجن٦٦٦
+Incorrect
+Processing image: 1070
+Result: ففف٤٤٤
+Expected: ففف٤٤٤
+Correct
+Processing image: 1075
+Result: أأ١١
+Processing image: 1078
+Result: ٢٢٢٣٣٣٣
+Expected: ممم٣٣٣٣
+Incorrect
+Processing image: 1085
+Result: 
+Expected: دف٢٢٢٢ھ
+Incorrect
+Processing image: 1086
+Result: نسر٥٥٥٥
+Expected: رسن٥٥٥٥
+Correct
+Processing image: 1087
+Result: مم٩
+Expected: مم٩
+Correct
+Processing image: 1089
+Result: لسر٥٥٥
+Expected: رسن٥٥٥٥
+Incorrect
+Processing image: 1091
+Result: ١١١
+Expected: س١١١
+Incorrect
+Processing image: 1093
+Result: ٤٤٤
+Expected: س١١١١
+Incorrect
+Processing image: 1096
+Result: ف١ل
+Expected: أجن٦٦٦
+Incorrect
+Processing image: 1101
+Result: بعد٣٣
+Expected: دسع٣٣٣٣
+Incorrect
+Processing image: 1103
+Result: فرسم١١١١
+Expected: رسف١١١١
+Incorrect
+Processing image: 1106
+Result: 
+Expected: ١ھ
+Incorrect
+Processing image: 1108
+Result: ٤
+Expected: ١ھ
+Incorrect
+Processing image: 1109
+Result: نبن٦٦٦٦
+Expected: ننن٦٦٦٦
+Incorrect
+Processing image: 1111
+Result: عدلم٨٨٨٨
+Expected: دعل٨٨٨٨
+Incorrect
+Processing image: 1119
+Result: أ
+Expected: رصم١
+Incorrect
+Processing image: 1121
+Result: 
+Expected: رصم١
+Incorrect
+Processing image: 1122
+Result: 
+Processing image: 1124
+Result: ممم
+Expected: ممم١
+Incorrect
+Processing image: 1129
+Result: 
+Expected: عع٤٤٤٤
+Incorrect
+Processing image: 1130
+Result: عع٤٤٤٤
+Expected: عع٤٤٤٤
+Correct
+Processing image: 1135
+Result: ججج٥٥٥٥
+Expected: ججج٥٥٥٥
+Correct
+Processing image: 1137
+Result: ققق٢٢٢
+Expected: ققق٢٢٢
+Correct
+Processing image: 1138
+Result: 
+Expected: ققق٢٢٢
+Incorrect
+Processing image: 1140
+Result: سىفق٩٩٩٩
+Expected: سفى٩٩٩٩
+Incorrect
+Processing image: 1142
+Result: روقأ٦٦٦٦
+Expected: رقو٦٦٦٦
+Incorrect
+Processing image: 1148
+Result: برو٦٦٦٦
+Expected: برو٦٦٦٦
+Correct
+Processing image: 1149
+Result: ررر٣٣٣٣
+Expected: ررر٣٣٣٣
+Correct
+Processing image: 1150
+Result: ررر١٣٣٣٣
+Expected: ررر٣٣٣٣
+Incorrect
+Processing image: 1151
+Result: ج
+Expected: رصم١١١١
+Incorrect
+Processing image: 1158
+Result: أ
+Expected: فف٦٦٦٦
+Incorrect
+Processing image: 1161
+Result: و١
+Expected: وو١
+Incorrect
+Processing image: 1166
+Result: ععع١١١١أ
+Expected: ععع١١١١
+Incorrect
+Processing image: 1173
+Result: 
+Expected: ر١
+Incorrect
+Processing image: 1174
+Result: ع١
+Expected: ع١
+Correct
+Processing image: 1175
+Result: 
+Expected: ب١
+Incorrect
+Processing image: 1179
+Result: سسس٢٢٢٢
+Expected: سسس٢٢٢٢
+Correct
+Processing image: 1180
+Result: عسل٤٤٤
+Expected: سعل٤٤٤
+Correct
+Processing image: 1183
+Result: 
+Expected: س١
+Incorrect
+Processing image: 1184
+Result: 
+Expected: س١
+Incorrect
+Processing image: 1206
+Result: ولع٦٦٦
+Expected: علو٦٦٦
+Correct
+Processing image: 1212
+Result: أجأ
+Expected: دد١
+Incorrect
+Processing image: 1219
+Result: د
+Processing image: 1236
+Result: 
+Expected: سس١
+Incorrect
+Processing image: 1243
+Result: عوق٤٦٢
+Expected: عقو٢٤٦
+Correct
+Processing image: 1244
+Result: سأم٦٦٦٦
+Expected: أسم٦٦٦٦
+Correct
+Processing image: 1250
+Result: وھم٦٦٦٦
+Expected: مو٦٦٦٦ھ
+Correct
+Processing image: 1253
+Result: ٨
+Expected: أ٨لو٢٦٨
+Incorrect
+Processing image: 1255
+Result: عمو١
+Expected: عمو١
+Correct
+Processing image: 1256
+Result: ٨
+Expected: أم٨٨٨٨ھ
+Incorrect
+Processing image: 1262
+Result: رس٤١١١
+Expected: أر١١١
+Incorrect
+Processing image: 1263
+Result: دفل٦٦٦
+Expected: دفل٦٦٦
+Correct
+Processing image: 1266
+Result: صصس٦٦٦
+Expected: صصص٦٦٦
+Incorrect
+Processing image: 1271
+Result: جمل٩٩٩
+Expected: جلم٩٩٩
+Correct
+Processing image: 1274
+Result: ١صصص٦٦٦
+Expected: صصص٦٦٦
+Incorrect
+Processing image: 1277
+Result: طرم٩٩٩٩
+Expected: رم٩٩٩٩ھ
+Incorrect
+Processing image: 1281
+Result: طر١
+Expected: رط١
+Correct
+Processing image: 1284
+Result: أوس٢٢٢
+Expected: أسو٢٢٢
+Correct
+Processing image: 1288
+Result: ووو٧٧٧
+Expected: ووو٧٧٧رى٦٧٨ھ
+Incorrect
+Processing image: 1291
+Result: سأم٦٦
+Expected: أسم٦٦٦٦
+Incorrect
+Processing image: 1292
+Result: ھرط
+Expected: ر١ھ
+Incorrect
+Processing image: 1297
+Result: أ
+Expected: أط١
+Incorrect
+Processing image: 1306
+Result: أسد٤
+Expected: أدس٤
+Correct
+Processing image: 1307
+Result: ٥
+Expected: س١ھ
+Incorrect
+Processing image: 1311
+Result: بص٦٦٦٦
+Expected: بص٦٦٦٦
+Correct
+Processing image: 1318
+Result: وو٦٦٦٦
+Expected: وو٦٦٦٦
+Correct
+Processing image: 1323
+Result: سقر٨٨٨٨
+Expected: رصق٨٨٨٨
+Incorrect
+Processing image: 1324
+Result: أأأ٩
+Expected: أأأ٩
+Correct
+Processing image: 1329
+Result: بطل٧٧٧٧٨
+Expected: بطل٧٧٧٧
+Incorrect
+Processing image: 1336
+Result: مم٢
+Expected: مم٢
+Correct
+Processing image: 1338
+Result: دھب٣
+Expected: بد٣ھ
+Correct
+Processing image: 1342
+Result: سس٣٣٣٣
+Expected: سس٣٣٣٣
+Correct
+Processing image: 1344
+Result: أبأ١١١
+Expected: أأب١١١
+Correct
+Processing image: 1345
+Result: ٨٨ط
+Expected: ىىى٨٨٨٨
+Incorrect
+Processing image: 1351
+Result: رن٤٤٤
+Expected: جرن٤٤٤٤
+Incorrect
+Processing image: 1357
+Result: أھم٩٩٩٩
+Expected: أم٩٩٩٩ھ
+Correct
+Processing image: 1358
+Result: عوق٤٦٢
+Expected: عقو٢٤٦
+Correct
+Processing image: 1360
+Result: 
+Expected: مم٢
+Incorrect
+Processing image: 1365
+Result: مھ٢
+Expected: مم٢٢٢٢ھ
+Incorrect
+Processing image: 1368
+Result: ففف٤١١١١
+Expected: ففف١١١١
+Incorrect
+Processing image: 1369
+Result: ٢
+Expected: مم٢٢٢٢ھ
+Incorrect
+Processing image: 1372
+Result: وأو٥٥٥
+Expected: أوو٥٥٥
+Correct
+Processing image: 1379
+Result: ممم
+Expected: ممم١
+Incorrect
+Processing image: 1380
+Result: سبع٧
+Expected: بسع٧
+Correct
+Processing image: 1382
+Result: ١د
+Expected: أدس٢
+Incorrect
+Processing image: 1386
+Result: أسد٢
+Expected: أدس٢
+Correct
+Processing image: 1387
+Result: ٥
+Expected: رنى٥٥٥٥
+Incorrect
+Processing image: 1390
+Result: ججط
+Expected: أسن١
+Incorrect
+Processing image: 1392
+Result: 
+Expected: ف١
+Incorrect
+Processing image: 1396
+Result: 
+Expected: أمم٦٦٦٦
+Incorrect
+Processing image: 1399
+Result: قلقق١١١١
+Expected: ققل١١١١
+Incorrect
+Processing image: 1408
+Result: رنج٤٤٤٤
+Expected: جرن٤٤٤٤
+Correct
+Processing image: 1410
+Result: نصر٧١١١
+Expected: رصن١١١
+Incorrect
+Processing image: 1413
+Result: ررر
+Expected: و
+Incorrect
+Processing image: 1419
+Result: ططط٤٤٤٤
+Expected: ططط٤٤٤٤
+Correct
+Processing image: 1420
+Result: نس٦٦أ
+Expected: سن٦٦٦٦
+Incorrect
+Processing image: 1432
+Result: بم٧أ
+Processing image: 1434
+Result: قق٤٤٤٤
+Expected: قق٤٤٤
+Incorrect
+Processing image: 1439
+Result: بب١
+Expected: بب١
+Correct
+Processing image: 1442
+Result: ق١
+Expected: ق١
+Correct
+Processing image: 1446
+Result: طجم٥٥٥٥
+Expected: جمن٥٥٥٥
+Incorrect
+Processing image: 1448
+Result: سد٤٤٤٤
+Processing image: 1450
+Result: ععب١
+Expected: بع١
+Incorrect
+Processing image: 1454
+Result: طىب٥١١١١
+Expected: بطى١١١١
+Incorrect
+Processing image: 1458
+Result: ع٧٧٧
+Expected: رعم
+Incorrect
+Processing image: 1463
+Result: 
+Expected: وو٧٧
+Incorrect
+Processing image: 1465
+Result: ققق١١١
+Expected: ققق١١١
+Correct
+Processing image: 1467
+Result: سس٣٣٣٣
+Processing image: 1469
+Result: ھع٦٦٦٦
+Expected: ع٦٦٦٦ھ
+Correct
+Processing image: 1472
+Result: 
+Expected: أ٨
+Incorrect
+Processing image: 1473
+Result: ططط٧٧٧
+Expected: ططط٧٧٧
+Correct
+Processing image: 1475
+Result: ططط٧٧٧
+Expected: ططط٧٧٧
+Correct
+Processing image: 1479
+Result: د
+Expected: ٢
+Incorrect
+Processing image: 1482
+Result: أأب
+Expected: على٩٩٩٩
+Incorrect
+Processing image: 1484
+Result: ننن٦٦٦
+Expected: ننن٦٦٦
+Correct
+Processing image: 1485
+Result: وو٧٧٧٧
+Expected: وو٧٧٧٧
+Correct
+Processing image: 1486
+Result: وو٧٧٧٧
+Expected: وو
+Incorrect
+Processing image: 1487
+Result: ٨ن
+Expected: ر١١١١
+Incorrect
+Processing image: 1490
+Result: ٢
+Expected: سسس٥
+Incorrect
+Processing image: 1492
+Result: 
+Expected: ١
+Incorrect
+Processing image: 1493
+Result: بطل١١٧٧
+Expected: بطل
+Incorrect
+Processing image: 1496
+Result: ھ٣أ
+Expected: أم٣٣٣ھ
+Incorrect
+Processing image: 1498
+Result: جمى١١١
+Expected: جمى١١١
+Correct
+Processing image: 1502
+Result: ٩
+Expected: أع٢٢٢٢
+Incorrect
+Processing image: 1503
+Result: قلب٦٦٦
+Expected: بقل٦٦٦
+Correct
+Processing image: 1507
+Result: وو٤٤٤٤
+Expected: وو٤٤٤٤
+Correct
+Processing image: 1515
+Result: ر١١
+Expected: ر١١
+Correct
+Processing image: 1518
+Result: ١١
+Expected: ر١١
+Incorrect
+Processing image: 1519
+Result: 
+Expected: ر١١
+Incorrect
+Processing image: 1521
+Result: عف٢
+Expected: عف٢
+Correct
+Processing image: 1527
+Result: بطل١١ر١
+Expected: بل١١١
+Incorrect
+Processing image: 1528
+Result: 
+Processing image: 1535
+Result: مم١
+Expected: مم١
+Correct
+Processing image: 1536
+Result: مم٢
+Expected: مم٢
+Correct
+Processing image: 1540
+Result: نجم٦٦٦٦
+Expected: جمن٦٦٦٦
+Correct
+Processing image: 1542
+Result: م
+Expected: دسع٥
+Incorrect
+Processing image: 1543
+Result: د
+Expected: دسع٧٧٧٧
+Incorrect
+Processing image: 1546
+Result: ١أ٢٢
+Expected: أأأ٢٢٢٢
+Incorrect
+Processing image: 1549
+Result: قصر٦٦٦٦
+Expected: رصق٦٦٦٦
+Correct
+Processing image: 1559
+Result: 
+Expected: جنى١
+Incorrect
+Processing image: 1561
+Result: سىد٣٣٣٣
+Expected: دسى٣٣٣٣
+Correct
+Processing image: 1563
+Result: 
+Expected: جنى١
+Incorrect
+Processing image: 1564
+Result: ٥ھ
+Expected: جمن١
+Incorrect
+Processing image: 1566
+Result: ١٩
+Expected: صصص٥٥٥٥
+Incorrect
+Processing image: 1567
+Result: ٣
+Expected: مم٢
+Incorrect
+Processing image: 1568
+Result: أمر١١١١
+Expected: أرم١١١١
+Correct
+Processing image: 1569
+Result: أمر١١١١
+Expected: أرم١١١١
+Correct
+Processing image: 1572
+Result: أمر١١١١
+Expected: أرم١١١١
+Correct
+Processing image: 1574
+Result: ففف١١١١
+Expected: ففف١١١١
+Correct
+Processing image: 1577
+Result: أنأ١١١
+Expected: أأن١١١
+Correct
+Processing image: 1582
+Result: 
+Expected: جقو٦٧٨
+Incorrect
+Processing image: 1583
+Result: قلق١
+Expected: ققل١
+Correct
+Processing image: 1586
+Result: رىس١
+Expected: رسى٢
+Incorrect
+Processing image: 1587
+Result: نجر١١١
+Expected: جرن١١١١
+Incorrect
+Processing image: 1592
+Result: نق٧٤٢١
+Expected: قن١٢٤٧
+Correct
+Processing image: 1595
+Result: نجأ٦٦٦٦
+Expected: أجن١١١أجن٦٦٦٦
+Incorrect
+Processing image: 1596
+Result: سرس١١١١
+Expected: رسس١١١١
+Correct
+Processing image: 1601
+Result: 
+Expected: برس١١١١
+Incorrect
+Processing image: 1602
+Result: طد٥٥٥٥
+Expected: دط٥٥٥٥
+Correct
+Processing image: 1608
+Result: جو١١١
+Expected: جو١١١١
+Incorrect
+Processing image: 1609
+Result: منى٦٦٦٦
+Expected: منى٦٦٦٦
+Correct
+Processing image: 1613
+Result: 
+Expected: ل١
+Incorrect
+Processing image: 1614
+Result: 
+Expected: دط٥٥٥٥
+Incorrect
+Processing image: 1616
+Result: جب١
+Expected: بجل
+Incorrect
+Processing image: 1617
+Result: سىد٩٩٩
+Expected: دسى٩٩٩
+Correct
+Processing image: 1619
+Result: نجم٤٤٤٤
+Expected: جمن٤٤٤٤
+Correct
+Processing image: 1621
+Result: لل٥٥٥٥
+Expected: لل٥٥٥٥
+Correct
+Processing image: 1624
+Result: مو١
+Expected: مو١
+Correct
+Processing image: 1628
+Result: 
+Expected: أسق١٢٢٥
+Incorrect
+Processing image: 1630
+Result: نق٧٤٢١
+Expected: قن١٢٤٧
+Correct
+Processing image: 1639
+Result: 
+Expected: س٥٥
+Incorrect
+Processing image: 1641
+Result: فود٤٨٧٣
+Expected: دفو٣٤٧٨
+Correct
+Processing image: 1646
+Result: أىص٧٣٤١
+Expected: أصى١٣٤٧
+Correct
+Processing image: 1649
+Result: بطص٥٩٤١
+Expected: بصط١٤٥٩
+Correct
+Processing image: 1651
+Result: جو١٩٣١
+Expected: نو١٢٣٩
+Incorrect
+Processing image: 1654
+Result: دأأ٣٥٧
+Expected: أأد٣٥٧
+Correct
+Processing image: 1657
+Result: سوس١١١١
+Expected: سسو١١١١
+Correct
+Processing image: 1662
+Result: نسد٨٨
+Expected: أدس٨٨
+Incorrect
+Processing image: 1663
+Result: أ١١٩
+Expected: أ١١٩
+Correct
+Processing image: 1664
+Result: نم
+Expected: من١
+Incorrect
+Processing image: 1667
+Result: عف٤٤٤٤
+Expected: عف٤٤٤٤
+Correct
+Processing image: 1668
+Result: 
+Expected: طنو١
+Incorrect
+Processing image: 1669
+Result: ب٧٧
+Expected: برع٧٧٧٧
+Incorrect
+Processing image: 1670
+Result: مفھ١١١١
+Expected: فم١١١١ھ
+Correct
+Processing image: 1671
+Result: عع
+Expected: مم٢٢٢٢ھ
+Incorrect
+Processing image: 1676
+Result: عسل٥٥٥
+Expected: سعل٥٥٥
+Correct
+Processing image: 1680
+Result: عطأ٦٦٦٦
+Expected: أطع٦٦٦٦
+Correct
+Processing image: 1688
+Result: صقر٩٩٩
+Expected: رصق٩٩٩
+Correct
+Processing image: 1691
+Result: عمو١
+Expected: عمو١
+Correct
+Processing image: 1694
+Result: نجم٤٤٤٤
+Expected: جمن٤٤٤٤
+Correct
+Processing image: 1697
+Result: ١
+Expected: عمم١
+Incorrect
+Processing image: 1699
+Result: مأن١١١١
+Expected: أمن١١١١
+Correct
+Processing image: 1704
+Result: 
+Expected: س٢
+Incorrect
+Processing image: 1706
+Result: دلع٢٢٢
+Expected: دعل٢٢٢
+Correct
+Processing image: 1709
+Result: دأل٧٧٧٧
+Expected: أدل٧٧٧٧
+Correct
+Processing image: 1711
+Result: 
+Expected: عم٥٥٥٥
+Incorrect
+Processing image: 1712
+Result: عج٥٥٥٥
+Expected: جع٥٥٥٥
+Correct
+Processing image: 1714
+Result: ھرم٥١١١
+Expected: رم١١١ھ
+Incorrect
+Processing image: 1734
+Result: قأ٧٤٥٤
+Expected: أق٤٤٥٧
+Correct
+Processing image: 1737
+Result: طمن٤١٩٥
+Expected: طمن١٤٥٩
+Correct
+Processing image: 1755
+Result: 
+Expected: دم٣٧٨٩ھ
+Incorrect
+Processing image: 1756
+Result: مدھ٩أ٣أ٧٨
+Expected: دم٣٧٨٩ھ
+Incorrect
+Processing image: 1761
+Result: 
+Expected: مو٦٦٦٦ھ
+Incorrect
+Processing image: 1762
+Result: قلقأأ١أ
+Expected: ققل١١١١
+Incorrect
+Processing image: 1765
+Result: أ٤٤٤٤
+Expected: دعم٤٤٤٤
+Incorrect
+Processing image: 1782
+Result: رجو٦٦٦٦
+Expected: جو٦٦٦٦
+Incorrect
+Processing image: 1787
+Result: ٧٨
+Expected: سم١٢٣٨
+Incorrect
+Processing image: 1789
+Result: ١أ
+Expected: سم١٢٣٨
+Incorrect
+Processing image: 1794
+Result: دطل٣٤٢
+Expected: دطل٢٣٤
+Correct
+Processing image: 1802
+Result: جق٢٧٩
+Expected: جعق٢٧٩
+Incorrect
+Processing image: 1804
+Result: مو٦ق٦٢٤
+Expected: أمو٢٤٥٦
+Incorrect
+Processing image: 1812
+Result: جوع٢٧٩
+Expected: جعق٢٧٩
+Incorrect
+Processing image: 1814
+Result: 
+Expected: جر١٣٩ھ
+Incorrect
+Processing image: 1821
+Result: و٥١٩٦
+Expected: أأق١٥٦٩
+Incorrect
+Processing image: 1822
+Result: 
+Expected: درس٧٧٨٩
+Incorrect
+Processing image: 1827
+Result: جد
+Expected: أبق٢٣٦٨
+Incorrect
+Processing image: 1828
+Result: أأ
+Expected: دطل٢٣٤
+Incorrect
+Processing image: 1836
+Result: ط٥٣٣٣٣
+Expected: فن٣٣٣٣
+Incorrect
+Processing image: 1840
+Result: ىعط٧٤٦
+Expected: طعى٤٦٧
+Correct
+Processing image: 1845
+Result: طأط١٢ن
+Expected: أطط٢٥٧
+Incorrect
+Processing image: 1851
+Result: ١دق٥٤٧٣
+Expected: دق٣٤٥٧
+Incorrect
+Processing image: 1852
+Result: ١دق٥٤٧٣
+Expected: دق٣٤٥٧
+Incorrect
+Processing image: 1858
+Result: ملطب١٢٧
+Expected: طلم١٢٧
+Incorrect
+Processing image: 1859
+Result: نمى٩١٤
+Expected: منى١٤٩
+Correct
+Processing image: 1862
+Result: ىج١٤٧٥
+Expected: أجى١٤٥٧
+Incorrect
+Processing image: 1863
+Result: 
+Expected: رطف١٤٧٩
+Incorrect
+Processing image: 1867
+Result: فبد٥٣٨٤
+Expected: بدف٣٤٥٨
+Correct
+Processing image: 1868
+Result: أدع٢٥٩٧
+Expected: أدع٢٥٧٩
+Correct
+Processing image: 1869
+Result: ق٥٤٧
+Expected: دق٣٤٥٧
+Incorrect
+Processing image: 1870
+Result: ىفط٦٥١
+Expected: ١٥٦
+Incorrect
+Processing image: 1890
+Result: ق٩٢٤٣
+Expected: سعق٢٣٤٩
+Incorrect
+Processing image: 1897
+Result: عق٦٢٤٦
+Expected: عق٢٤٦٦
+Correct
+Processing image: 1899
+Result: أھص٧٩٥٨
+Expected: أص٥٧٨٩ھ
+Correct
+Processing image: 1909
+Result: ٥ف٤٧
+Expected: فف٤٦٧٩
+Incorrect
+Processing image: 1910
+Result: ١
+Expected: ببر٢٥٦
+Incorrect
+Processing image: 1914
+Result: رقع٧٥
+Expected: رعق٢٤٥٧
+Incorrect
+Processing image: 1915
+Result: مب٩٦
+Expected: بم٣٦٦٩
+Incorrect
+Processing image: 1916
+Result: قجب٣٤٩٥
+Expected: بجق٣٤٥٩
+Correct
+Processing image: 1918
+Result: طرھد٨٧٣
+Expected: رس٣٧٨ھ
+Incorrect
+Processing image: 1927
+Result: دطس٩٦٤
+Expected: دصط٤٦٩
+Incorrect
+Processing image: 1929
+Result: قسع٨٥٦٣
+Expected: سعق٣٥٦٨
+Correct
+Processing image: 1932
+Result: رج١١٤١٦
+Expected: جر١١٤٦
+Incorrect
+Processing image: 1936
+Result: لسل٤٢
+Expected: سلل٣٤٥
+Incorrect
+Processing image: 1944
+Result: ب٣٤٩
+Expected: بجق٣٤٥٩
+Incorrect
+Processing image: 1945
+Result: مطف٧٦٤
+Expected: طفم٤٦٧
+Correct
+Processing image: 1949
+Result: ٧٤١
+Expected: جم١٤٥٧
+Incorrect
+Processing image: 1951
+Result: عھ٩٥
+Processing image: 1953
+Result: ھس٥١٤٣
+Expected: أس١٣٤٥ھ
+Incorrect
+Processing image: 1954
+Result: ىبھأ٣٧
+Expected: بى٣٧٨ھ
+Incorrect
+Processing image: 1957
+Result: عق٦٢٤٦
+Expected: عق٢٤٦٦
+Correct
+Processing image: 1968
+Result: 
+Expected: طقل٦٦٦
+Incorrect
+Processing image: 1971
+Result: بل٩٥٩٩
+Expected: بطل٥٩٩
+Incorrect
+Processing image: 1973
+Result: سس١١١٧
+Expected: سس٣٣٣٣
+Incorrect
+Processing image: 1976
+Result: ١مھم٦٦٦
+Expected: مم٦٦٦ھ
+Incorrect
+Processing image: 1977
+Result: بطل١
+Expected: بطل١
+Correct
+Processing image: 1979
+Result: ھ
+Expected: منى١١١
+Incorrect
+Processing image: 1980
+Result: ھھ١
+Expected: ١ھھ
+Correct
+Processing image: 1983
+Result: ٤
+Expected: رصق٦٦٦
+Incorrect
+Processing image: 1985
+Result: ر١
+Expected: ر١
+Correct
+Processing image: 1987
+Result: ٣
+Expected: ع٤
+Incorrect
+Processing image: 2001
+Result: نصر١١١١
+Expected: رصن١١١١
+Correct
+Processing image: 2003
+Result: ر١١١
+Expected: ر١١١
+Correct
+Processing image: 2006
+Result: أنس١
+Expected: أسن١
+Correct
+Processing image: 2008
+Result: م١١١
+Expected: أ١١١
+Incorrect
+Processing image: 2021
+Result: 
+Expected: أر٤٤٤٤
+Incorrect
+Processing image: 2023
+Result: ىى
+Expected: ىىى١١١١
+Incorrect
+Processing image: 2024
+Result: سأأم١١١١
+Processing image: 2025
+Result: ددد٨٨٨
+Expected: ددد٨٨٨
+Correct
+Processing image: 2032
+Result: ١
+Expected: ١ھ
+Incorrect
+Processing image: 2033
+Result: بىب١٢٣
+Expected: ببى١٢٣
+Correct
+Processing image: 2038
+Result: رجل٦٦٦٦
+Expected: جرل٦٦٦٦
+Correct
+Processing image: 2041
+Result: 
+Expected: ١
+Incorrect
+Processing image: 2044
+Result: ١٢ھم١٢٢١٢
+Expected: مم٢٢٢ھ
+Incorrect
+Processing image: 2046
+Result: ررر١١١
+Expected: ررر١١١
+Correct
+Processing image: 2050
+Result: ب١١١١
+Expected: جن١١١١
+Incorrect
+Processing image: 2054
+Result: د
+Expected: د١
+Incorrect
+Processing image: 2056
+Result: ١٢ھم١٢٢١٢
+Expected: مم٢٢٢ھ
+Incorrect
+Processing image: 2069
+Result: ٦
+Expected: م١
+Incorrect
+Processing image: 2075
+Result: سأأ١١١١
+Expected: أأس١١١١
+Correct
+Accuracy: 0.4148936170212766
