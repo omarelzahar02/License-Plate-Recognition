@@ -2,7 +2,6 @@ import cv2
 import numpy as np
 import imutils
 
-from commonfunctions import show_images
 from plate_extraction import PlateExtraction, Verbosity
 
 
@@ -21,7 +20,8 @@ class CharacterSegmentation:
 
     def set_original_image(self, image):
         self.original_image = image.copy()
-        self.original_gray = cv2.cvtColor(self.original_image, cv2.COLOR_BGR2GRAY)
+        self.original_gray = cv2.cvtColor(
+            self.original_image, cv2.COLOR_BGR2GRAY)
 
     def set_unique_title(self, uniqueTitle):
         self.uniqueTitle = uniqueTitle
@@ -43,22 +43,6 @@ class CharacterSegmentation:
         candidate_rectangles = self.find_and_draw_rectangles(threshold_image)
         filled_image = self.fill_rectangles(candidate_rectangles)
         self.rectangles = self.select_good_rectangles_and_draw(filled_image)
-
-    # def find_and_draw_contours(self, image):
-    #     contours = cv2.findContours(
-    #         image.copy(), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
-    #     contours = imutils.grab_contours(contours)
-
-    #     img_cpy = self.image.copy()
-
-    #     for c in contours:
-    #         (x, y, w, h) = cv2.boundingRect(c)
-    #         rand_color = np.random.randint(0, 255, size=3).tolist()
-    #         cv2.rectangle(img_cpy, (x, y), (x + w, y + h), rand_color, 2)
-
-    #     self.show_image("All Contours", img_cpy)
-
-    #     return contours
 
     def find_and_draw_rectangles(self, image):
         connectedComponents = cv2.connectedComponentsWithStats(
@@ -126,68 +110,87 @@ class CharacterSegmentation:
         self.show_image("Final Rectangles", img_copy)
 
         return final_rectangles
+
     def mask_plate(self):
-        img_threshold = cv2.threshold(self.original_gray, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)[1]
+        img_threshold = cv2.threshold(
+            self.original_gray, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)[1]
 
-        img_threshold = cv2.erode(img_threshold, np.ones((6, 6), np.uint8), iterations=1)
-        img_threshold = cv2.dilate(img_threshold, np.ones((1, 20), np.uint8), iterations=1)
+        img_threshold = cv2.erode(
+            img_threshold, np.ones((6, 6), np.uint8), iterations=1)
+        img_threshold = cv2.dilate(
+            img_threshold, np.ones((1, 20), np.uint8), iterations=1)
 
-        contours, _ = cv2.findContours(img_threshold, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+        contours, _ = cv2.findContours(
+            img_threshold, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
         if len(contours) == 0:
-            print("No contours found.")
             return self.original_gray
         max_contour = max(contours, key=cv2.contourArea)
         x, y, w, h = cv2.boundingRect(max_contour)
 
         aspect_ratio = w / h
-        print(aspect_ratio)
+        mask = np.ones_like(self.original_gray)
+
         if 2.2 < aspect_ratio < 5:
             mask = np.zeros_like(self.original_gray)
             cv2.rectangle(mask, (x, y), (x + w, y + h), (255, 255, 255), -1)
-            masked_image = cv2.bitwise_and(self.original_gray, mask)
-        else:
-            masked_image = self.original_gray
-            print("No colored part detected. The whole image will be used.")
 
-        masked_image = cv2.resize(masked_image, (600, 400))
-        self.show_image("Masked Image", masked_image)
+        mask = cv2.resize(mask, (600, 400))
 
-        return masked_image
+        self.show_image("Mask", mask)
+
+        return mask
 
     def preprocess(self):
-        self.show_image("Plate", self.image)
-        self.show_image("Gray Plate", self.gray)
+        self.image[:, :10] = 255
+        self.image[:, -10:] = 255
+        img_cleaned = self.clean_image(self.image)
+        mask = self.mask_plate()
 
-        masked_image = self.mask_plate()
-        # Apply unsharp mask to strength the edges
-        self.sharp_image = self.unsharp_mask(masked_image, 10, 5)
-        self.show_image("Sharpened", self.sharp_image)
+        img_cleaned = cv2.bitwise_and(img_cleaned, mask)
+        img_cleaned = cv2.bitwise_not(img_cleaned)
 
-        # Remove noise and enhance characters
-        rectKernel = cv2.getStructuringElement(cv2.MORPH_RECT, (2, 4))
-        erode = cv2.erode(self.sharp_image, (2, 4), iterations=1)
-        dilate = cv2.dilate(erode, (3, 12), iterations=1)
+        self.show_image("Preprocessed Image", img_cleaned)
 
-        dilate = cv2.bitwise_not(dilate)
-        erode = cv2.erode(dilate, None, iterations=2)
-        self.show_image("Characters Enhanced", erode)
+        return img_cleaned
 
-        # Apply threshold to get binary image
-        threshold_image = cv2.threshold(
-            erode, 0, 255, cv2.THRESH_BINARY | cv2.THRESH_OTSU)[1]
+    def clean_image(self, img):
+        gray_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
-        self.show_image("Threshold Image", threshold_image)
+        resized_img = cv2.resize(gray_img, (600, 400))
 
-        return threshold_image
+        resized_img = cv2.GaussianBlur(resized_img, (5, 5), 0)
 
-    def unsharp_mask(self, image, sigma=1.0, strength=1.5):
-        # Apply Gaussian blur
-        blurred = cv2.GaussianBlur(image, (0, 0), sigma)
+        equalized_img = cv2.equalizeHist(resized_img)
 
-        # Subtract the blurred image from the original
-        sharpened = cv2.addWeighted(
-            image, 1.0 + strength, blurred, -strength, 0)
-        return sharpened
+        reduced = cv2.cvtColor(self.reduce_colors(cv2.cvtColor(
+            equalized_img, cv2.COLOR_GRAY2BGR), 4), cv2.COLOR_BGR2GRAY)
+
+        ret, mask = cv2.threshold(reduced, 64, 255, cv2.THRESH_BINARY)
+
+        kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (3, 3))
+        mask = cv2.erode(mask, kernel, iterations=1)
+
+        return mask
+
+    def reduce_colors(self, img, n):
+        Z = img.reshape((-1, 3))
+
+        # convert to np.float32
+        Z = np.float32(Z)
+
+        # define criteria, number of clusters(K) and apply kmeans()
+        criteria = (cv2.TERM_CRITERIA_EPS +
+                    cv2.TERM_CRITERIA_MAX_ITER, 10, 1.0)
+        K = n
+        ret, label, center = cv2.kmeans(
+            Z, K, None, criteria, 10, cv2.KMEANS_RANDOM_CENTERS)
+
+        # Now convert back into uint8, and make original image
+        center = np.uint8(center)
+        res = center[label.flatten()]
+        res2 = res.reshape((img.shape))
+
+        return res2
 
 
 if __name__ == '__main__':

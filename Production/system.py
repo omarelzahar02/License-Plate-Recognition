@@ -9,6 +9,7 @@ import joblib
 from character_recognition import CharacterRecognition
 import os
 import pandas as pd
+from collections import Counter
 
 
 def construct_dataset_labels(dir, output_file="labels.txt"):
@@ -45,61 +46,110 @@ def read_labels_file(file_path):
     return df
 
 
-def process_image(image_path, knn_model, threshold):
+def process_image(image_path, knn_model, threshold, verbosity=Verbosity.QUIET):
     plate_extraction = PlateExtraction()
-    plate_extraction.set_verbosity(Verbosity.QUIET)
+    plate_extraction.set_verbosity(verbosity)
     plate_extraction.set_image_path(image_path)
 
     plate_extraction.process()
     plate = plate_extraction.get_plate_image()
 
     character_segmentation = CharacterSegmentation(
-        plate, Verbosity.QUIET)
+        plate, verbosity)
     character_segmentation.process()
 
     rectangles = character_segmentation.get_rectangles()
 
     image = character_segmentation.get_image()
     character_recognition = CharacterRecognition(
-        rectangles, image, knn_model, threshold, Verbosity.QUIET)
+        rectangles, image, knn_model, threshold, verbosity)
     plate_text = character_recognition.process()
     return plate_text
+
+
+def pickRandomNImagesAndExtractAndShow(n, labels):
+    pe = PlateExtraction()
+    pe.set_verbosity(True)
+    rand_labels = labels.sample(n)
+    model = joblib.load("../model_1.pkl")
+    threshold = 1.5
+    for img_number in rand_labels.index:
+        result = process_image(
+            f"../Dataset/Vehicles/{img_number:04d}.jpg", model, threshold)
+        expected = rand_labels['label'][img_number]
+        print(f"Result: {result}")
+        print(f"Expected: {expected}")
+        result_counter = Counter(result)
+        label_counter = Counter(labels['label'][img_number])
+        print(f"Testcase: {img_number}")
+        if result_counter == label_counter:
+            print("Correct")
+        else:
+            print("Incorrect")
+        print("\n")
 
 
 if __name__ == "__main__":
     # construct_dataset_labels("../chars_labeling/Characters")
     labels = read_labels_file("labels.txt")
+    # rand_labels = labels.sample(10)
+    # for label in rand_labels.index:
+    #     print(f"Label: {label} Value: {rand_labels['label'][label]}")
 
     knn_model = joblib.load("../model_1.pkl")
     threshold = 1.50
+    # pickRandomNImagesAndExtractAndShow(10, labels)
 
     correct = 0
     total = 0
     accuracy = 0
-    from collections import Counter
-    for image_number in labels.index:
+
+    path = "../Good/good_images"
+    log_file = open("log.txt", "w", encoding="utf-8")
+    for file in os.listdir(path):
+
+        image_number = int(file.split(".")[0])
+        # print(f"Processing image {image_number}")
+        log_file.write(f"Processing image: {image_number}\n")
         try:
+            img_path = os.path.join(path, file)
             result = process_image(
-                f"../Dataset/Vehicles/{image_number:04d}.jpg", knn_model, threshold)
-            print(f"Result: {result}")
-            print(f"Expected: {labels['label'][image_number]}")
+                img_path, knn_model, threshold)
+
+            # print(f"Result: {result}")
+            # print(f"Expected: {labels['label'][image_number]}")
+
             total += 1
+
+            log_file.write(f"Result: {result}\n")
+            log_file.write(f"Expected: {labels['label'][image_number]}\n")
+
             # if result == labels['label'][image_number]:
             #     correct += 1
 
             result_counter = Counter(result)
             label_counter = Counter(labels['label'][image_number])
 
+            # print(f"Testcase: {img_path}")
+            if result_counter == label_counter:
+                log_file.write("Correct\n")
+                # print("Correct")
+            else:
+                log_file.write("Incorrect\n")
+                # print("Incorrect")
+            # print("\n")
+
             if result_counter == label_counter:
                 correct += 1
+
         except:
             print("No label found")
 
     accuracy = correct / total
-
+    log_file.write(f"Accuracy: {accuracy}\n")
     print(f"Accuracy: {accuracy}")
     # result = process_image(
-    #     "../Dataset/Vehicles/0009.jpg", knn_model, threshold)
+    #     "../Dataset/Vehicles/2056.jpg", knn_model, threshold, Verbosity.ALL_STEPS)
     # print(f"Result: {result}")
     # print(f"Expected: {labels['label'][9]}")
 

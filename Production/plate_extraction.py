@@ -8,7 +8,7 @@ class Verbosity:
     QUIET = 0
     DEBUG = 1
     ALL_STEPS = 2
-    WAIT_ON_EACH_STEP = 3
+    WAIT_ON_EACH_STEP = 4
 
 
 class PlateExtraction:

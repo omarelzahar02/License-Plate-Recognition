@@ -37,7 +37,7 @@ class CharacterRecognition:
             distances, _ = self.knn_model.kneighbors([hog_img])
             nearest_distance = distances[0][0]
             if nearest_distance < self.threshold:
-                print(f"Char: {char} Distance: {nearest_distance}")
+                # print(f"Char: {char} Distance: {nearest_distance}")
                 plate_text += char
         return plate_text
 

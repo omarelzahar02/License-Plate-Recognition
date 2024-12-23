@@ -129,11 +129,12 @@ def save_good_images():
 
 
 if __name__ == "__main__":
-    # pe = PlateExtraction()
-    # pe.set_verbosity(Verbosity.ALL_STEPS)
-    # pe.set_image_path("..\\Dataset\\Vehicles\\0143.jpg")
-    # pe.process()
+    pe = PlateExtraction()
+    pe.set_verbosity(Verbosity.ALL_STEPS)
+    pe.set_image_path("..\\Dataset\\Vehicles\\0143.jpg")
+    pe.process()
+
     # pickRandomNImagesAndExtractAndShow(10)
     # pe.save_plate_img("Results\\plate.jpg")
-    compare_with_dataset()
+    # compare_with_dataset()
     # save_good_images()
