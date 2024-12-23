@@ -13,13 +13,29 @@ This project aims to build an LPR system that takes an image of a vehicle's lice
 # Installation
 1. **Clone the repository**
 ```bash
-git clone
+git clone https://github.com/omarelzahar02/GateAccessControl.git
 ```
-2. **Install the required libraries**
+2. ## Prerequisites
+
+Make sure you have the following libraries installed:
+
+- `customtkinter`
+- `Pillow`
+- `tkinterdnd2`
+- `opencv-python`
+- `numpy`
+- `imutils`
+- `scikit-image`
+- `joblib`
+- `pandas`
+
+You can install these libraries using pip:
+
 ```bash
-pip install -r requirements.txt
+pip install customtkinter Pillow tkinterdnd2 opencv-python numpy imutils scikit-image joblib pandas
 ```
+
 3. **Run the code**
 ```bash
-python main.py
+python gui.py
 ```
