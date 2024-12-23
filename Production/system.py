@@ -10,6 +10,8 @@ from character_recognition import CharacterRecognition
 import os
 import pandas as pd
 from collections import Counter
+from yolo import Yolo
+from ultralytics import YOLO
 
 
 def construct_dataset_labels(dir, output_file="labels.txt"):
@@ -67,6 +69,21 @@ def process_image(image_path, knn_model, threshold, verbosity=Verbosity.QUIET):
     return plate_text
 
 
+def process_image_dnn(image_path, model, verbosity=Verbosity.QUIET):
+    plate_extraction = PlateExtraction()
+    plate_extraction.set_verbosity(verbosity)
+    plate_extraction.set_image_path(image_path)
+
+    plate_extraction.process()
+    plate = plate_extraction.get_plate_image()
+    cv2.imwrite("plate.jpg", plate)
+    yolo_predictor = Yolo(model)
+    # try:
+    return yolo_predictor.get_plate_number("plate.jpg")
+    # except:
+    #     return ""
+
+
 def pickRandomNImagesAndExtractAndShow(n, labels):
     pe = PlateExtraction()
     pe.set_verbosity(True)
@@ -96,7 +113,9 @@ if __name__ == "__main__":
 
     knn_model = joblib.load("../model_2.pkl")
     threshold = 1.50
-
+    yolo_model_path = "Yolo.onnx"
+    yolo_model = YOLO(yolo_model_path, task="detect")
+    # print(process_image_dnn("../Dataset/Vehicles/0001.jpg", yolo_model))
     # pickRandomNImagesAndExtractAndShow(10, labels)
 
     correct = 0
@@ -104,16 +123,16 @@ if __name__ == "__main__":
     accuracy = 0
 
     path = "../Good/good_images"
-    log_file = open("log.txt", "w", encoding="utf-8")
-    for file in os.listdir(path):
+    log_file = open("log_dnn.txt", "w", encoding="utf-8")
 
+    for file in os.listdir(path):
         image_number = int(file.split(".")[0])
         # print(f"Processing image {image_number}")
         log_file.write(f"Processing image: {image_number}\n")
         try:
             img_path = os.path.join(path, file)
-            result = process_image(
-                img_path, knn_model, threshold)
+            result = process_image_dnn(
+                img_path, yolo_model)
 
             # print(f"Result: {result}")
             # print(f"Expected: {labels['label'][image_number]}")
@@ -125,7 +144,7 @@ if __name__ == "__main__":
 
             # if result == labels['label'][image_number]:
             #     correct += 1
-
+            result = result.replace(" ", "")
             result_counter = Counter(result)
             label_counter = Counter(labels['label'][image_number])
 

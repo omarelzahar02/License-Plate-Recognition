@@ -28,11 +28,12 @@ Make sure you have the following libraries installed:
 - `scikit-image`
 - `joblib`
 - `pandas`
+- `ultralytics`
 
 You can install these libraries using pip:
 
 ```bash
-pip install customtkinter Pillow tkinterdnd2 opencv-python numpy imutils scikit-image joblib pandas
+pip install customtkinter Pillow tkinterdnd2 opencv-python numpy imutils scikit-image joblib pandas ultralytics
 ```
 
 3. **Run the code**
