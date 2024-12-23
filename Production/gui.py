@@ -82,8 +82,14 @@ root.drop_target_register(DND_FILES)
 root.dnd_bind('<<Drop>>', drop_image)
 
 # Buttons
-menu_button1 = ctk.CTkButton(root, text='Select image', text_color="#FFFFFF", command=select_image, fg_color="#08b6d9", hover_color="#087bb8", width=200, height=35, font=("Arial", 16, "bold"))
-menu_button1.pack(pady=10)
+button_frame = ctk.CTkFrame(root, bg_color="transparent")
+button_frame.pack(pady=2)
+
+menu_button1 = ctk.CTkButton(button_frame, text='Select image',bg_color="#329171", text_color="#FFFFFF", command=select_image, fg_color="#08b6d9", hover_color="#087bb8", width=200, height=35, font=("Arial", 16, "bold"))
+menu_button1.pack(side="left",padx=2)
+
+menu_button2 = ctk.CTkButton(button_frame, text='Select image using Yolo',bg_color="#329171", text_color="#FFFFFF", command=select_image, fg_color="#08b6d9", hover_color="#087bb8", width=200, height=35, font=("Arial", 16, "bold"))
+menu_button2.pack(side="left", padx=2)
 
 # Label for extracted text
 text_label =ctk.CTkLabel(root, text="Plate Number will appear here.", wraplength=500, justify="left", font=("Arial", 15), bg_color="transparent", text_color="#FFFFFF")
