@@ -36,16 +36,19 @@ class CharacterRecognition:
             char = self.knn_model.predict([hog_img])[0]
             distances, _ = self.knn_model.kneighbors([hog_img])
             nearest_distance = distances[0][0]
+            if char == 'Outliers':
+                continue
+
             if nearest_distance < self.threshold:
-                # print(f"Char: {char} Distance: {nearest_distance}")
                 plate_text += char
+
         return plate_text
 
 
 if __name__ == "__main__":
     plate_extraction = PlateExtraction()
     plate_extraction.set_verbosity(Verbosity.DEBUG)
-    plate_extraction.set_image_path("../Dataset/Vehicles/1338.jpg")
+    plate_extraction.set_image_path("../Dataset/Vehicles/0039.jpg")
 
     plate_extraction.process()
     plate = plate_extraction.get_plate_image()
@@ -56,7 +59,7 @@ if __name__ == "__main__":
 
     rectangles = character_segmentation.get_rectangles()
 
-    knn_model = joblib.load("../model_1.pkl")
+    knn_model = joblib.load("../model_2.pkl")
     threshold = 1.5
 
     image = character_segmentation.get_image()

@@ -3,7 +3,7 @@ Result: سطن٦٢١٧
 Expected: سطن١٢٦٧
 Correct
 Processing image: 5
-Result: طس٢٣٤٨
+Result: ط٢أ٣أ٤٨
 Expected: سم٢٣٤٨
 Incorrect
 Processing image: 6
@@ -15,13 +15,13 @@ Result: أنع٩١٨
 Expected: أعن١٨٩
 Correct
 Processing image: 12
-Result: مبدج٤٥
+Result: مند٤٥
 Expected: من٢٤٥٦
 Incorrect
 Processing image: 13
-Result: ھأق٦٧٤
+Result: ھأقھ٦٧٤
 Expected: أق٤٦٧ھ
-Correct
+Incorrect
 Processing image: 14
 Result: روى١٥٨٤
 Expected: روى١٤٥٨
@@ -31,11 +31,11 @@ Result: روى١٥٨٤
 Expected: روى١٤٥٨
 Correct
 Processing image: 16
-Result: سوفق٨٩٤٥
+Result: سوف٨٩٤٥
 Expected: سفو٤٥٨٩
-Incorrect
+Correct
 Processing image: 17
-Result: 
+Result: أأ
 Expected: بد٣٤٤٦
 Incorrect
 Processing image: 18
@@ -43,7 +43,7 @@ Result:
 Expected: عقى٣٤٦٨
 Incorrect
 Processing image: 19
-Result: 
+Result: عىق٣٨٤ج٦
 Expected: عقى٣٤٦٨
 Incorrect
 Processing image: 20
@@ -51,11 +51,11 @@ Result:
 Expected: دع٢٣٥٨
 Incorrect
 Processing image: 21
-Result: 
+Result: رسىع٧٤٦أم
 Expected: رعى١٤٦٧
 Incorrect
 Processing image: 26
-Result: فد١١٤٢
+Result: ٥د١١٤٢
 Expected: دصق١١٢٤
 Incorrect
 Processing image: 27
@@ -71,27 +71,27 @@ Result: جق٨٩٢٤
 Expected: جق٢٤٨٩
 Correct
 Processing image: 35
-Result: 
+Result: ١ق
 Expected: أسن١٣٥
 Incorrect
 Processing image: 36
-Result: دفقأ٥٣٤٩
+Result: دفق٥٣٤٩
 Expected: دفق٣٤٥٩
-Incorrect
+Correct
 Processing image: 38
 Result: س٢
 Expected: س٢
 Correct
 Processing image: 46
-Result: وھ٦٦٦٦
+Result: موھ٦٦٦٦
 Expected: مو٦٦٦٦ھ
-Incorrect
+Correct
 Processing image: 47
 Result: عس١
 Expected: سع١
 Correct
 Processing image: 48
-Result: 
+Result: ووع٥١٥
 Expected: وو١٥٥
 Incorrect
 Processing image: 49
@@ -111,11 +111,11 @@ Result: ىجل٥٥٥٥
 Expected: جلى٥٥٥٥
 Correct
 Processing image: 54
-Result: على٨٨٨
+Result: على١٨٨٨
 Expected: على٨٨٨
-Correct
+Incorrect
 Processing image: 58
-Result: ٥رص٢٨
+Result: ط٢٨
 Expected: سطو٢٨٩
 Incorrect
 Processing image: 59
@@ -123,31 +123,31 @@ Result: دلع٤٤٤
 Expected: دعل٤٤٤
 Correct
 Processing image: 63
-Result: ٥
+Result: ل٧دج
 Expected: منو١١١١
 Incorrect
 Processing image: 64
-Result: سىدأ٩٩٩
+Result: سىد٩٩٩
 Expected: دسى٩٩٩
-Incorrect
-Processing image: 66
-Result: جبل٦٦٦٦
-Expected: بجل٦٦٦٦
 Correct
+Processing image: 66
+Result: جبل٦٦٦
+Expected: بجل٦٦٦٦
+Incorrect
 Processing image: 69
-Result: 
+Result: أأأ
 Expected: أأأ١
 Incorrect
 Processing image: 71
-Result: ر
+Result: 
 Expected: ر١١١
 Incorrect
 Processing image: 72
-Result: ١م
+Result: م
 Expected: رصم٢
 Incorrect
 Processing image: 76
-Result: ١
+Result: 
 Expected: رسن٧
 Incorrect
 Processing image: 77
@@ -159,15 +159,15 @@ Result:
 Expected: دعل٢٢٢٢
 Incorrect
 Processing image: 79
-Result: 
+Result: مم٥
 Expected: مم٥
-Incorrect
+Correct
 Processing image: 80
-Result: 
+Result: ج
 Expected: س٢
 Incorrect
 Processing image: 81
-Result: ھ
+Result: ١
 Expected: سسس٦
 Incorrect
 Processing image: 82
@@ -187,79 +187,79 @@ Result: بى٥٥٥
 Expected: بى٥٥٥٥
 Incorrect
 Processing image: 87
-Result: 
+Result: مأ٧٧٧٧
 Expected: أم٧٧٧٧
-Incorrect
+Correct
 Processing image: 89
 Result: نصر٧٧٧٧
 Expected: رصن٧٧٧٧
 Correct
 Processing image: 91
-Result: 
+Result: ججج٨٨٨٨
 Expected: ججج٨٨٨٨
-Incorrect
+Correct
 Processing image: 92
-Result: ٦
+Result: ٦٦
 Expected: م٦٦٦٦ھ
 Incorrect
 Processing image: 93
-Result: 
+Result: جبل٥
 Expected: بجل٥
-Incorrect
+Correct
 Processing image: 94
 Result: جبل١١١
 Expected: بجل١١١
 Correct
 Processing image: 96
-Result: 
+Result: أ
 Expected: م٣
 Incorrect
 Processing image: 97
-Result: عھأ٧٧٧
+Result: عھ٧٧٧
 Expected: ع٧٧٧٧ھ
 Incorrect
 Processing image: 100
-Result: جدعط٦٥٧٣
+Result: جدع٦٥٧
 Expected: جدع٥٦٧
-Incorrect
-Processing image: 101
-Result: 
-Expected: ررر٦٦٦
-Incorrect
-Processing image: 102
-Result: أسد١١١١
-Expected: أدس١١١١
 Correct
+Processing image: 101
+Result: ررر٦٦٦
+Expected: ررر٦٦٦
+Correct
+Processing image: 102
+Result: سد١١١١
+Expected: أدس١١١١
+Incorrect
 Processing image: 106
 Result: قمر٢١٢١
 Expected: رقم١١٢٢
 Correct
 Processing image: 107
-Result: ررر٣
+Result: ررر٣٣٣٣
 Expected: ررر٣٣٣٣
-Incorrect
+Correct
 Processing image: 108
-Result: ١١
+Result: أأ١١
 Expected: أأ١١
-Incorrect
+Correct
 Processing image: 109
 Result: صصص٦٦٦
 Expected: صصص٦٦٦
 Correct
 Processing image: 111
-Result: علىق٧٧٧٧
+Result: على٧٧٧٧
 Expected: على٧٧٧٧
-Incorrect
+Correct
 Processing image: 112
-Result: مم١
+Result: ممم١
 Expected: ممم١
-Incorrect
+Correct
 Processing image: 115
 Result: ٥
 Expected: أرس٥٥٥
 Incorrect
 Processing image: 116
-Result: 
+Result: أأأ٧٧٧
 Expected: أأأ٧٧٧٧
 Incorrect
 Processing image: 119
@@ -267,39 +267,39 @@ Result: ھس١
 Expected: س١ھ
 Correct
 Processing image: 122
-Result: ٥د٦٦٦
+Result: ٨٦٦٦٦
 Expected: دمو٦٦٦٦
 Incorrect
 Processing image: 124
-Result: دنع٤٦٦
+Result: فأع٦
 Expected: دعل٦٦٦٦
 Incorrect
 Processing image: 126
-Result: سأأأ١١١١
+Result: سأأ١١١١
 Expected: أأس١١١١
-Incorrect
-Processing image: 127
-Result: ننن٤٤٤
-Expected: ننن٤٤٤
 Correct
+Processing image: 127
+Result: ننلس٤٤
+Expected: ننن٤٤٤
+Incorrect
 Processing image: 129
-Result: 
+Result: ١
 Expected: دعل٥٥٥
 Incorrect
 Processing image: 132
-Result: أھأأم١أ١ب٨
+Result: عد١
 Expected: سنى١
 Incorrect
 Processing image: 133
-Result: مبم٥٩٩٩
+Result: مبم٩٩٩
 Expected: بمم٩٩٩
-Incorrect
+Correct
 Processing image: 135
 Result: 
 Expected: ددد٥٥٥٥
 Incorrect
 Processing image: 136
-Result: ججج٩٤٤٤
+Result: ٦ججج٤٤٤
 Expected: ججج٤٤٤
 Incorrect
 Processing image: 139
@@ -307,7 +307,7 @@ Result: مس٤٤
 Expected: سم٤٤٤٤
 Incorrect
 Processing image: 144
-Result: 
+Result: ٩م
 Expected: ممم٤٤٤٤
 Incorrect
 Processing image: 145
@@ -315,7 +315,7 @@ Result: على٣٣٣
 Expected: على٣٣٣
 Correct
 Processing image: 148
-Result: م٧سع
+Result: م٧نع
 Expected: ععع٢٢٢٢
 Incorrect
 Processing image: 149
@@ -327,11 +327,11 @@ Result: وأم٧٧٧
 Expected: أم٧٧٧ھ
 Incorrect
 Processing image: 152
-Result: أ١
+Result: أمم١
 Expected: أمم١
-Incorrect
+Correct
 Processing image: 154
-Result: س٢٢١
+Result: ٢٢١
 Expected: ممم٢٢٢
 Incorrect
 Processing image: 155
@@ -347,7 +347,7 @@ Result: أأ١
 Expected: أأ١
 Correct
 Processing image: 159
-Result: 
+Result: ١
 Expected: سس١
 Incorrect
 Processing image: 160
@@ -359,9 +359,9 @@ Result: أدم١١١١
 Expected: أدم١١١١
 Correct
 Processing image: 165
-Result: أھم٥٥٥٥
+Result: ھم٥٥٥٥
 Expected: أم٥٥٥٥ھ
-Correct
+Incorrect
 Processing image: 166
 Result: ععع٩٩٩
 Expected: ععع٩٩٩
@@ -379,19 +379,19 @@ Result: أدم٦٦٦٦
 Expected: أدم٦٦٦٦
 Correct
 Processing image: 174
-Result: 
+Result: جھج٢٢٢٢
 Expected: جج٢٢٢٢ھ
-Incorrect
+Correct
 Processing image: 176
 Result: 
 Expected: جد١ھ
 Incorrect
 Processing image: 177
-Result: 
+Result: أ١
 Expected: أأ١
 Incorrect
 Processing image: 178
-Result: ٤١١
+Result: ١
 Expected: صص١١
 Incorrect
 Processing image: 180
@@ -399,27 +399,27 @@ Result: ١
 Expected: أ١
 Incorrect
 Processing image: 181
-Result: عصل٣٣٣
+Result: عسل٣٣٣
 Expected: سعل٣٣٣
-Incorrect
+Correct
 Processing image: 182
 Result: ولع٦٦٦
 Expected: علو٦٦٦
 Correct
 Processing image: 183
-Result: طلق٦٦
+Result: طلق٦٦ج
 Expected: طقل٦٦٦
 Incorrect
 Processing image: 184
-Result: 
+Result: ججج٤٤٤٤
 Expected: ججج٤٤٤٤
-Incorrect
+Correct
 Processing image: 185
-Result: صص٢٢
+Result: صس٢٢
 Expected: صص٢٢٢٢
 Incorrect
 Processing image: 186
-Result: أ٧٥ع
+Result: أ٧ج
 Expected: م١
 Incorrect
 Processing image: 187
@@ -427,91 +427,91 @@ Result: أأأ١
 Expected: أأأ١
 Correct
 Processing image: 191
-Result: ٨ددد١١١
+Result: ددد١١١
 Expected: ددد١١١
-Incorrect
+Correct
 Processing image: 193
 Result: دفل٦٦٦
 Expected: دفل٦٦٦
 Correct
 Processing image: 194
-Result: نصر٩٩٩٩
+Result: نسر٩٩٩٩
 Expected: رصن٩٩٩٩
-Correct
+Incorrect
 Processing image: 202
-Result: د
+Result: نسد١
 Processing image: 205
 Result: 
 Processing image: 207
-Result: ھ١١١١
+Result: ھس١١١١
 Processing image: 208
-Result: 
+Result: ر١
 Processing image: 213
-Result: ووو٤٤٤
+Result: ووو٤٤٤٤١
 Processing image: 214
-Result: ٥ج٥٦٦٦
+Result: نجم٦٦٦٦
 Processing image: 216
-Result: ٥
+Result: س٤ع
 Processing image: 220
 Result: جج٦٦٦٦
 Processing image: 221
-Result: 
+Result: ددد
 Processing image: 222
 Result: و١١
 Processing image: 224
 Result: أسد١
 Processing image: 226
-Result: ٨سب
-Processing image: 228
 Result: 
+Processing image: 228
+Result: رعب٢٢٢
 Processing image: 232
-Result: ١ھم١
+Result: أھم١
 Processing image: 234
 Result: ھن١١
 Processing image: 235
-Result: و٥٥٦٦٦
+Result: ولع٦٦٦
 Processing image: 239
-Result: 
+Result: سف١٥١٥
 Processing image: 242
-Result: ٨روق٦٦٦٦
+Result: روقأ٦٦٦٦
 Processing image: 245
 Result: سس١
 Processing image: 246
-Result: ٢ممم٤١٤٩
+Result: ممم٤١٤٩
 Processing image: 247
-Result: ١١
+Result: صص١١
 Processing image: 251
 Result: نسر١١١١
 Processing image: 255
-Result: د
+Result: ردد٦٦٦٦
 Processing image: 256
 Result: مطر٦٦٦
 Processing image: 258
-Result: 
+Result: لنل٦
 Processing image: 260
-Result: ١١
+Result: صص١١
 Expected: صص١١
-Incorrect
+Correct
 Processing image: 261
 Result: فھد٢٢٢٢
 Expected: دف٢٢٢٢ھ
 Correct
 Processing image: 273
-Result: 
+Result: ر
 Expected: أع١
 Incorrect
 Processing image: 276
-Result: س١١١١
+Result: قمس١١١١
 Expected: سم١١١١
 Incorrect
 Processing image: 278
-Result: أھم
+Result: أھم١
 Expected: أ١ھ
 Incorrect
 Processing image: 279
-Result: ىى٦٦٦٦
+Result: ىى١٦٦٦٦
 Expected: ىى٦٦٦٦
-Correct
+Incorrect
 Processing image: 280
 Result: 
 Expected: أأ١
@@ -521,23 +521,23 @@ Result: فرس١١١١
 Expected: رسف١١١١
 Correct
 Processing image: 283
-Result: ف
+Result: 
 Expected: أ١
 Incorrect
 Processing image: 284
-Result: أب١١١١
+Result: نب١١١١
 Expected: أب١١١١
-Correct
+Incorrect
 Processing image: 288
-Result: أنس١
+Result: نس١
 Expected: أسن١
-Correct
+Incorrect
 Processing image: 290
 Result: بطل١
 Expected: بطل١
 Correct
 Processing image: 292
-Result: 
+Result: أ١٢
 Expected: أأ١١١
 Incorrect
 Processing image: 298
@@ -545,27 +545,27 @@ Result: أ١١١
 Expected: أ١١١
 Correct
 Processing image: 300
-Result: ١١
+Result: ٣٣
 Expected: أأ١١
 Incorrect
 Processing image: 302
-Result: وط١ب
+Result: بول١
 Expected: طنو١
 Incorrect
 Processing image: 303
-Result: نجوو٣٢١
+Result: جوو٣٢١
 Expected: جوو١٢٣
-Incorrect
+Correct
 Processing image: 307
 Result: 
 Expected: ففف١١١١
 Incorrect
 Processing image: 311
-Result: مھر٦٦٦٦
+Result: فمھر٦٦٦٦
 Expected: رم٦٦٦٦ھ
-Correct
+Incorrect
 Processing image: 313
-Result: 
+Result: ٤٩٩٩
 Expected: سسس٥
 Incorrect
 Processing image: 316
@@ -573,13 +573,13 @@ Result: نب٩٩٩٩
 Expected: بن٩٩٩٩
 Correct
 Processing image: 320
-Result: ٩
+Result: ١٩
 Expected: أدس٢
 Incorrect
 Processing image: 321
-Result: قق١١١٥١
+Result: قق١١١١
 Expected: قق١١١١
-Incorrect
+Correct
 Processing image: 322
 Result: أ١١١
 Expected: أ١١١
@@ -589,11 +589,11 @@ Result: بطل٧٧٧٧
 Expected: بطل٧٧٧٧
 Correct
 Processing image: 325
-Result: سمر٧٧٩٩١
+Result: سمر٧٩٩١
 Expected: رسم١٧٩٩
-Incorrect
+Correct
 Processing image: 330
-Result: 
+Result: ١
 Expected: عف١
 Incorrect
 Processing image: 332
@@ -601,25 +601,25 @@ Result: بطل١١١١
 Expected: بطل١١١١
 Correct
 Processing image: 334
-Result: مھم٢٢٢
+Result: مھمأ٢٢٢
 Expected: مم٢٢٢ھ
-Correct
+Incorrect
 Processing image: 337
 Result: 
 Expected: بطل٧٧٧٧
 Incorrect
 Processing image: 340
-Result: أسد١
+Result: سد١
 Expected: أدس١
-Correct
+Incorrect
 Processing image: 342
 Result: عمر٩٩٩١
 Expected: رعم١٩٩٩
 Correct
 Processing image: 345
-Result: نسر٦٦٦٦
+Result: عسر٦٦٦٦
 Expected: رسن٦٦٦٦
-Correct
+Incorrect
 Processing image: 349
 Result: بطل١١١
 Expected: بطل١١١
@@ -641,9 +641,9 @@ Result: جبل١
 Expected: بجل١
 Correct
 Processing image: 363
-Result: رجب٥٥٥٥
+Result: رجب٥٥٥٥٩
 Expected: بجر٥٥٥٥
-Correct
+Incorrect
 Processing image: 364
 Result: مع٦٦٦٦
 Expected: عم٦٦٦٦
@@ -657,7 +657,7 @@ Result: ججج٨٨٨٨
 Expected: ججج٨٨٨٨
 Correct
 Processing image: 376
-Result: صسس
+Result: سطسس
 Expected: و١١
 Incorrect
 Processing image: 377
@@ -669,75 +669,75 @@ Result: جنى١
 Expected: جنى١
 Correct
 Processing image: 382
-Result: ممم
+Result: ممم١
 Expected: ممم١
-Incorrect
+Correct
 Processing image: 385
-Result: مصر
+Result: مصر٢٢٢٢
 Expected: رصم٢٢٢٢
-Incorrect
+Correct
 Processing image: 387
-Result: ١أ١١١١٧١٧ط١١
+Result: 
 Expected: رنو٣٣٣٣
 Incorrect
 Processing image: 388
-Result: أأع١١١
+Result: أأ١١١ر
 Expected: أأ١١١
 Incorrect
 Processing image: 392
-Result: 
+Result: ططط٧٧٧٧
 Expected: ططط٧٧٧٧
-Incorrect
+Correct
 Processing image: 397
 Result: ف١
 Expected: ف١
 Correct
 Processing image: 399
-Result: بجم١٩٩٩
+Result: نجم٩٩٩
 Expected: جمن٩٩٩
-Incorrect
+Correct
 Processing image: 400
-Result: 
+Result: جبل١
 Expected: بجل١
-Incorrect
+Correct
 Processing image: 402
-Result: 
+Result: صقر٩٩٩٩
 Expected: رصق٩٩٩٩
-Incorrect
+Correct
 Processing image: 406
-Result: عىدط١١١١
+Result: عىد١١١١
 Expected: دعى١١١١
-Incorrect
+Correct
 Processing image: 409
-Result: ممأ٣٣٣
+Result: مم٣٣٣٣
 Expected: مم٣٣٣٣
-Incorrect
+Correct
 Processing image: 410
 Result: أمى٧٧٧
 Expected: أمى٧٧٧
 Correct
 Processing image: 414
-Result: ر١
+Result: رىس١
 Expected: رسى١
-Incorrect
+Correct
 Processing image: 415
-Result: ىس١١١
+Result: رىس١١١
 Expected: رسى١١١
-Incorrect
+Correct
 Processing image: 418
-Result: 
+Result: م
 Expected: رصم٣
 Incorrect
 Processing image: 420
-Result: 
+Result: م١
 Expected: ١ھھھ
 Incorrect
 Processing image: 423
-Result: عق٤٤٤٤
+Result: ٦ق٤٤٤
 Expected: رقم٤٤٤٤
 Incorrect
 Processing image: 424
-Result: 
+Result: أ
 Expected: أب١١١ھ
 Incorrect
 Processing image: 427
@@ -745,17 +745,17 @@ Result:
 Expected: ب١ھ
 Incorrect
 Processing image: 428
-Result: سىد١١١١
+Result: سىد٥١١١١
 Expected: دسى١١١١
-Correct
-Processing image: 431
-Result: أدم٦٦٦٦
-Expected: أدم٦٦٦٦
-Correct
-Processing image: 433
-Result: و٥٥٥
-Expected: رقم٥٥٥
 Incorrect
+Processing image: 431
+Result: أأدم٦٦٦٦
+Expected: أدم٦٦٦٦
+Incorrect
+Processing image: 433
+Result: قمر٥٥٥
+Expected: رقم٥٥٥
+Correct
 Processing image: 434
 Result: مر٦٦٦
 Expected: رم٦٦٦٦
@@ -765,7 +765,7 @@ Result:
 Expected: د١
 Incorrect
 Processing image: 437
-Result: 
+Result: ٥ىى١١١١
 Expected: ىىى٣٣٣٣
 Incorrect
 Processing image: 439
@@ -777,7 +777,7 @@ Result: ھأم٣٣٣٣
 Expected: أم٣٣٣٣ھ
 Correct
 Processing image: 441
-Result: 
+Result: ٣٥
 Expected: عف١
 Incorrect
 Processing image: 442
@@ -785,7 +785,7 @@ Result:
 Expected: أبو١
 Incorrect
 Processing image: 446
-Result: 
+Result: مأ٧س
 Expected: أم٧
 Incorrect
 Processing image: 447
@@ -797,29 +797,29 @@ Result: سس٢٢٢٢
 Expected: سس٢٢٢٢
 Correct
 Processing image: 456
-Result: ٨٨ر٨
+Result: 
 Expected: جدم١
 Incorrect
 Processing image: 458
-Result: رس٦٦٦٦
+Result: نمس٦٦٦٦
 Expected: سمن٦٦٦٦
-Incorrect
+Correct
 Processing image: 460
 Result: ىىى٩٩٩
 Expected: ىىى٩٩٩
 Correct
 Processing image: 461
-Result: ع٦٣٤ج
+Result: ععأ٤ج
 Expected: عع٤
 Incorrect
 Processing image: 462
-Result: ١ور٩٩٩٩
+Result: نور٩٩٩٩
 Expected: رنو٩٩٩٩
-Incorrect
+Correct
 Processing image: 464
-Result: جبلط٦٦٦
+Result: جبل٦٦٦
 Expected: بجل٦٦٦
-Incorrect
+Correct
 Processing image: 467
 Result: 
 Expected: رصم٢٢٢٢
@@ -829,9 +829,9 @@ Result: رىس١١١
 Expected: رسى١١١
 Correct
 Processing image: 471
-Result: 
+Result: سم٦٦٦٦
 Expected: سم٦٦٦٦
-Incorrect
+Correct
 Processing image: 474
 Result: نصر١١١١
 Expected: رصن١١١١
@@ -841,45 +841,45 @@ Result: جج٦٦٦٦
 Expected: جج٦٦٦٦
 Correct
 Processing image: 481
-Result: 
+Result: ٧جج٦٦٦٦
 Expected: جج٦٦٦٦
 Incorrect
 Processing image: 486
-Result: رم١١١
+Result: ھرمس١١١
 Expected: رم١١١ھ
 Incorrect
 Processing image: 490
-Result: د٥٥٥
+Result: ىد٥٥
 Expected: مى٥٥٥٥
 Incorrect
 Processing image: 493
-Result: 
+Result: عمصر١١١١
 Expected: رصم١١١١
 Incorrect
 Processing image: 497
-Result: بب٩٥٩
+Result: بل٩٥٩٩
 Expected: بطل٥٩٩
 Incorrect
 Processing image: 498
-Result: ١مھم١٦٦٦
+Result: ١مھم٦٦٦
 Expected: مم٦٦٦ھ
 Incorrect
 Processing image: 499
-Result: و١١١١
+Result: ور٨٨٨٨
 Expected: رنو٨٨٨٨
 Incorrect
 Processing image: 500
-Result: ھ
+Result: رھس١
 Expected: س١ھ
 Incorrect
 Processing image: 504
-Result: ١
+Result: ھھ١
 Expected: ١ھھ
-Incorrect
-Processing image: 505
-Result: منى١١١
-Expected: منى١١١
 Correct
+Processing image: 505
+Result: ھ
+Expected: منى١١١
+Incorrect
 Processing image: 506
 Result: 
 Expected: طقل٦٦٦
@@ -889,59 +889,59 @@ Result: ر١
 Expected: ر١
 Correct
 Processing image: 513
-Result: 
+Result: نصر١١١١
 Expected: رصن١١١١
-Incorrect
+Correct
 Processing image: 517
-Result: سس١١١١
+Result: سس١١١٧
 Expected: سس٣٣٣٣
 Incorrect
 Processing image: 519
-Result: قوىع٨٨٨٨
+Result: قوى٨٨٨٨
 Expected: قوى٨٨٨٨
-Incorrect
+Correct
 Processing image: 531
-Result: 
+Result: ٣
 Expected: ع٤
 Incorrect
 Processing image: 533
-Result: 
+Result: ٤
 Expected: رصق٦٦٦
 Incorrect
 Processing image: 534
-Result: ر١٧
+Result: ر١١١
 Expected: ر١١١
-Incorrect
+Correct
 Processing image: 535
-Result: 
+Result: بطل١
 Expected: بطل١
-Incorrect
+Correct
 Processing image: 537
-Result: أن١
+Result: أنس١
 Expected: أسن١
-Incorrect
+Correct
 Processing image: 546
-Result: ١١١١
+Result: م١١١
 Expected: أ١١١
 Incorrect
 Processing image: 547
-Result: 
+Result: منص٦٦٦٦
 Expected: صمن٦٦٦٦
-Incorrect
+Correct
 Processing image: 548
-Result: نورط٤٤٤
+Result: نور٤٤٤
 Expected: رنو٤٤٤
-Incorrect
+Correct
 Processing image: 550
 Result: روق٦٦٦٦
 Expected: رقو٦٦٦٦
 Correct
 Processing image: 554
-Result: ج
+Result: 
 Expected: عف٢
 Incorrect
 Processing image: 586
-Result: ١
+Result: ج
 Expected: دسع٥
 Incorrect
 Processing image: 588
@@ -949,51 +949,51 @@ Result: مر١١١١
 Expected: رم١١١١
 Correct
 Processing image: 593
-Result: 
+Result: أھم٢٢٢٢
 Expected: أم٢٢٢٢ھ
-Incorrect
+Correct
 Processing image: 603
-Result: أ
+Result: ععقأق
 Expected: ىىى٢٢٢٢
 Incorrect
 Processing image: 610
-Result: 
+Result: مسم٧٧٧
 Expected: سمم٧٧٧
-Incorrect
+Correct
 Processing image: 612
 Result: جج٢
 Expected: جج٢
 Correct
 Processing image: 613
-Result: ١دب١٣١
+Result: سنم١٣١
 Processing image: 619
-Result: 
+Result: مسم٧٧٧
 Expected: سمم٧٧٧
-Incorrect
+Correct
 Processing image: 621
 Result: 
 Processing image: 629
-Result: 
+Result: سلد٧٧٧٧
 Expected: صق٧٧٧٧
 Incorrect
 Processing image: 634
-Result: ١
+Result: ى
 Expected: ى١
 Incorrect
 Processing image: 635
-Result: 
+Result: جو١٣٥٩
 Expected: جو١٣٥٩
-Incorrect
+Correct
 Processing image: 636
-Result: م٥٣٥٤
+Result: مفف٣٥٤
 Expected: ففم٣٤٥
-Incorrect
+Correct
 Processing image: 637
 Result: 
 Expected: أر٤٤٤٤
 Incorrect
 Processing image: 638
-Result: 
+Result: ٩
 Expected: دسع٥
 Incorrect
 Processing image: 639
@@ -1009,7 +1009,7 @@ Result: ببب٨٨٨٨
 Expected: ببب٨٨٨٨
 Correct
 Processing image: 654
-Result: ١
+Result: ط١
 Expected: جمن١
 Incorrect
 Processing image: 659
@@ -1021,7 +1021,7 @@ Result: مر٦٦٦٦
 Expected: رم٦٦٦٦
 Correct
 Processing image: 665
-Result: أأعب٩ق
+Result: روعبب٩٥
 Expected: أبر٥٧٩
 Incorrect
 Processing image: 670
@@ -1029,7 +1029,7 @@ Result:
 Expected: سس١
 Incorrect
 Processing image: 672
-Result: ٦
+Result: 
 Expected: أ٩
 Incorrect
 Processing image: 676
@@ -1037,11 +1037,11 @@ Result: أ١١١
 Expected: أ١١١
 Correct
 Processing image: 679
-Result: أدمق١١١١
+Result: أدمج١١
 Expected: أدم١١١١
 Incorrect
 Processing image: 681
-Result: 
+Result: ھ
 Expected: رمى١
 Incorrect
 Processing image: 685
@@ -1053,7 +1053,7 @@ Result: بوب٥٥٥
 Expected: ببو٥٥٥٥
 Incorrect
 Processing image: 698
-Result: ىىى٧٢٢٢٢
+Result: ىىى١٢٢٢٢
 Expected: ىىى٢٢٢٢
 Incorrect
 Processing image: 704
@@ -1061,19 +1061,19 @@ Result: أھم٥٥٥٥
 Expected: أم٥٥٥٥ھ
 Correct
 Processing image: 709
-Result: سس١١١١
+Result: سسس١١١١
 Expected: سسس١١١١
-Incorrect
+Correct
 Processing image: 718
 Result: ١ووو٤٣٢١
 Expected: ووو١٢٣٤
 Incorrect
 Processing image: 719
-Result: صص٢٢
+Result: صس٢٢
 Expected: صص٢٢٢٢
 Incorrect
 Processing image: 722
-Result: ١
+Result: مممھ١
 Expected: ممم١
 Incorrect
 Processing image: 723
@@ -1081,63 +1081,63 @@ Result:
 Expected: أ٨
 Incorrect
 Processing image: 727
-Result: 
+Result: سسد١
 Expected: أدس١
 Incorrect
 Processing image: 729
-Result: 
+Result: ل
 Expected: مم٦٦ھ
 Incorrect
 Processing image: 733
-Result: ھ١١١١
+Result: ھس١١١١
 Expected: س١١١١ھ
-Incorrect
+Correct
 Processing image: 738
-Result: أ١
+Result: أ
 Expected: أع١
 Incorrect
 Processing image: 739
-Result: ٧أىع٣
+Result: منع٣
 Expected: أع١
 Incorrect
 Processing image: 741
-Result: 
+Result: ١أ
 Expected: أع١
 Incorrect
 Processing image: 742
-Result: 
+Result: ص٨٨٨
 Processing image: 745
-Result: 
+Result: ھ
 Expected: ١ھ
 Incorrect
 Processing image: 750
-Result: ١
+Result: ٨سسأ
 Expected: سس١
 Incorrect
 Processing image: 752
-Result: ر١
+Result: أسس
 Expected: سس١
 Incorrect
 Processing image: 755
-Result: ١م
+Result: مر
 Expected: رصم١
 Incorrect
 Processing image: 760
-Result: ١١١
+Result: ددد١١١
 Expected: ددد١١١
-Incorrect
+Correct
 Processing image: 762
 Result: دفل٦٦٦
 Expected: دفل٦٦٦
 Correct
 Processing image: 764
-Result: ٥ن٧٦٦٦
+Result: ٥طر٦٦٦
 Expected: رطم٦٦٦
 Incorrect
 Processing image: 766
-Result: نجم٣٣٣٣
+Result: نجمط٣٣٣٣
 Expected: جمن٣٣٣٣
-Correct
+Incorrect
 Processing image: 769
 Result: سسس١٩٩١
 Expected: سسس١١٩٩
@@ -1151,45 +1151,45 @@ Result: نجم٦٦٦٦
 Expected: جمن٦٦٦٦
 Correct
 Processing image: 776
-Result: جم١١١
-Expected: جمى١١١
-Incorrect
-Processing image: 781
-Result: 
-Expected: أدس١
-Incorrect
-Processing image: 782
-Result: 
-Expected: أدس١
-Incorrect
-Processing image: 787
 Result: جمى١١١
 Expected: جمى١١١
 Correct
-Processing image: 789
-Result: دل٦٦٦
-Expected: دفل٦٦٦
+Processing image: 781
+Result: نسدھ١
+Expected: أدس١
 Incorrect
+Processing image: 782
+Result: ط٤
+Expected: أدس١
+Incorrect
+Processing image: 787
+Result: جمىج١١١
+Expected: جمى١١١
+Incorrect
+Processing image: 789
+Result: دفل٦٦٦
+Expected: دفل٦٦٦
+Correct
 Processing image: 803
-Result: 
+Result: جط
 Expected: د١
 Incorrect
 Processing image: 809
-Result: فأ
+Result: أقد
 Expected: رقو١١١١
 Incorrect
 Processing image: 817
-Result: مسر١أ
+Result: مصر١
 Expected: رصم١
-Incorrect
+Correct
 Processing image: 820
 Result: ولع٦٦٦
 Expected: علو٦٦٦
 Correct
 Processing image: 822
-Result: أدم٥٦٦٦٦
+Result: أدم٦٦٦٦
 Expected: أدم٦٦٦٦
-Incorrect
+Correct
 Processing image: 823
 Result: أھم٥٥٥٥
 Expected: أم٥٥٥٥ھ
@@ -1203,7 +1203,7 @@ Result:
 Expected: ١ھ
 Incorrect
 Processing image: 833
-Result: أأجطأ
+Result: أ٣٥٤
 Processing image: 837
 Result: د١
 Expected: د١
@@ -1213,7 +1213,7 @@ Result: رىم٢٢٢٢
 Expected: رمى٢٢٢٢
 Correct
 Processing image: 839
-Result: ٣لى٦٦٦
+Result: أ٥ى٦٦٦
 Expected: منى٦٦٦
 Incorrect
 Processing image: 857
@@ -1221,7 +1221,7 @@ Result: ععع٢٢٢
 Expected: ععع٢٢٢
 Correct
 Processing image: 859
-Result: عول٧٣٣٣
+Result: ل٣٣٣
 Expected: سعل٣٣٣
 Incorrect
 Processing image: 863
@@ -1237,23 +1237,23 @@ Result: بطل٧٧٧٧
 Expected: بطل٧٧٧٧
 Correct
 Processing image: 869
+Result: ممم٥١
+Expected: ممم١
+Incorrect
+Processing image: 870
 Result: ممم١
 Expected: ممم١
 Correct
-Processing image: 870
-Result: ممم١٣
-Expected: ممم١
-Incorrect
 Processing image: 874
-Result: ھبطل٧٧٧
+Result: بطل٧٧٧
 Expected: بطل٧٧٧٧
 Incorrect
 Processing image: 877
-Result: 
+Result: عمر٩٩٩٩
 Expected: رعم٩٩٩٩
-Incorrect
+Correct
 Processing image: 878
-Result: أ
+Result: ٩
 Expected: سسس٧
 Incorrect
 Processing image: 888
@@ -1261,27 +1261,27 @@ Result: ھ١
 Expected: ١ھ
 Correct
 Processing image: 895
-Result: قق٦٦٦
+Result: ققق٦٦٦
 Expected: ققق٦٦٦
-Incorrect
+Correct
 Processing image: 897
 Result: مم٢
 Expected: مم٢
 Correct
 Processing image: 900
-Result: 
+Result: د٥أ٥
 Expected: ممم٥
 Incorrect
 Processing image: 901
-Result: 
+Result: وطن٥٥٥٥
 Expected: طنو٥٥٥٥
-Incorrect
+Correct
 Processing image: 902
-Result: 
+Result: ممأ٥
 Expected: ممم٥
 Incorrect
 Processing image: 903
-Result: 
+Result: ط٨
 Expected: ىىى٥٥٥٥
 Incorrect
 Processing image: 908
@@ -1293,21 +1293,21 @@ Result:
 Expected: ددد٥٥٥٥
 Incorrect
 Processing image: 921
-Result: 
+Result: ردد٥٥٥٥
 Expected: ددد٥٥٥٥
 Incorrect
 Processing image: 928
-Result: نجھ٦٦٦
+Result: نجم٦٦٦٦
 Expected: جمن٦٦٦٦
-Incorrect
+Correct
 Processing image: 931
 Result: مسر١١١
 Expected: رسم١١١
 Correct
 Processing image: 933
-Result: ھب١٦٦٦٦
+Result: دھب٦٦٦٦
 Expected: بد٦٦٦٦ھ
-Incorrect
+Correct
 Processing image: 938
 Result: جج٦٦٦٦
 Expected: جج٦٦٦٦
@@ -1321,7 +1321,7 @@ Result:
 Expected: مم٦٦٦ھ
 Incorrect
 Processing image: 952
-Result: ھ
+Result: ١
 Expected: ددد٧٧٧
 Incorrect
 Processing image: 954
@@ -1329,12 +1329,15 @@ Result:
 Expected: ددد٧٧٧
 Incorrect
 Processing image: 956
-Result: 
+Result: ٨ع
 Expected: دسى٨٨٨٨
 Incorrect
 Processing image: 961
+Result: 
+Expected: أم٣٣٣٣ھ
+Incorrect
 Processing image: 966
-Result: ٧
+Result: مم١
 Expected: مم٧
 Incorrect
 Processing image: 976
@@ -1342,19 +1345,19 @@ Result: ددد٦٦٦٦
 Expected: ددد٦٦٦٦
 Correct
 Processing image: 980
-Result: صصص٥٦٦٦
+Result: صصص٦٦٦
 Expected: صصص٦٦٦
-Incorrect
+Correct
 Processing image: 987
 Result: عمر٩٩٩أ
 Expected: رعم٩٩٩
 Incorrect
 Processing image: 988
-Result: مد٦٦٦٦
+Result: مجد٦٦٦٦
 Expected: جدم٦٦٦٦
-Incorrect
+Correct
 Processing image: 998
-Result: ٨
+Result: م
 Expected: طم١
 Incorrect
 Processing image: 1002
@@ -1362,29 +1365,29 @@ Result: سعد١١١١
 Expected: دسع١١١١
 Correct
 Processing image: 1004
-Result: رب٢٢٢
+Result: رعب٢٢٢
 Expected: برع٢٢٢
-Incorrect
+Correct
 Processing image: 1007
-Result: أ٥
+Result: ن
 Processing image: 1009
-Result: 
+Result: رم٥٥٥٥
 Expected: رم٥٥٥٥
-Incorrect
+Correct
 Processing image: 1015
 Result: أھم١
 Expected: أم١ھ
 Correct
 Processing image: 1016
-Result: 
+Result: ھس
 Expected: رمى٦٦٦٦
 Incorrect
 Processing image: 1019
-Result: 
+Result: ٤
 Expected: صص١١
 Incorrect
 Processing image: 1020
-Result: أأھم
+Result: أھم
 Expected: أم١ھ
 Incorrect
 Processing image: 1022
@@ -1396,11 +1399,11 @@ Result: دلع٤٤٤٤
 Expected: دعل٤٤٤٤جدل١٢٣٧
 Incorrect
 Processing image: 1030
-Result: طلق٦أ
+Result: طلق٥٦٦٦
 Expected: طقل٦٦٦
 Incorrect
 Processing image: 1034
-Result: ع٧٧٧٧
+Result: ٤عمط
 Expected: طعم٧٧٧٧
 Incorrect
 Processing image: 1038
@@ -1408,29 +1411,29 @@ Result: نسر١١١١
 Expected: رسن١١١١
 Correct
 Processing image: 1047
-Result: ١١١١
+Result: ١١١
 Expected: جو١١١١
 Incorrect
 Processing image: 1053
-Result: 
+Result: سرأ٣٥أ
 Expected: د١
 Incorrect
 Processing image: 1056
-Result: ١د
+Result: 
 Processing image: 1059
-Result: بسر٦٦٦٦
+Result: نسر٦٦٦٦
 Expected: رسن٦٦٦٦
-Incorrect
+Correct
 Processing image: 1063
-Result: أ١
+Result: صصد١١
 Expected: صص١١
 Incorrect
 Processing image: 1064
-Result: ١م٧٧
+Result: أھمد
 Expected: أم١ھ
 Incorrect
 Processing image: 1066
-Result: 
+Result: ١أھم١
 Expected: أم١ھ
 Incorrect
 Processing image: 1067
@@ -1442,17 +1445,17 @@ Result: ففف٤٤٤
 Expected: ففف٤٤٤
 Correct
 Processing image: 1069
-Result: جس٥٦٦٦
+Result: جب٦٦٦
 Expected: أجن٦٦٦
 Incorrect
 Processing image: 1070
-Result: فف٥٤٤٤
+Result: ففف٤٤٤
 Expected: ففف٤٤٤
-Incorrect
+Correct
 Processing image: 1075
-Result: 
+Result: أأ١١
 Processing image: 1078
-Result: م٣٣٣٧٣٣
+Result: ٢٢٢٣٣٣٣
 Expected: ممم٣٣٣٣
 Incorrect
 Processing image: 1085
@@ -1460,55 +1463,55 @@ Result:
 Expected: دف٢٢٢٢ھ
 Incorrect
 Processing image: 1086
-Result: ٥٥٥٥
+Result: نسر٥٥٥٥
 Expected: رسن٥٥٥٥
-Incorrect
+Correct
 Processing image: 1087
-Result: ٤٩
+Result: مم٩
 Expected: مم٩
-Incorrect
+Correct
 Processing image: 1089
-Result: 
+Result: لسر٥٥٥
 Expected: رسن٥٥٥٥
 Incorrect
 Processing image: 1091
-Result: ى٨١١١
+Result: ١١١
 Expected: س١١١
 Incorrect
 Processing image: 1093
-Result: 
+Result: ٤٤٤
 Expected: س١١١١
 Incorrect
 Processing image: 1096
-Result: 
+Result: ف١ل
 Expected: أجن٦٦٦
 Incorrect
 Processing image: 1101
-Result: سد٣٣٣٣
+Result: بعد٣٣
 Expected: دسع٣٣٣٣
 Incorrect
 Processing image: 1103
-Result: فرس١١١١
+Result: فرسم١١١١
 Expected: رسف١١١١
-Correct
+Incorrect
 Processing image: 1106
-Result: ٦٧
+Result: 
 Expected: ١ھ
 Incorrect
 Processing image: 1108
-Result: 
+Result: ٤
 Expected: ١ھ
 Incorrect
 Processing image: 1109
-Result: ننن٦٦٦٦
+Result: نبن٦٦٦٦
 Expected: ننن٦٦٦٦
-Correct
+Incorrect
 Processing image: 1111
-Result: 
+Result: عدلم٨٨٨٨
 Expected: دعل٨٨٨٨
 Incorrect
 Processing image: 1119
-Result: ٥٥٥٥
+Result: أ
 Expected: رصم١
 Incorrect
 Processing image: 1121
@@ -1518,7 +1521,7 @@ Incorrect
 Processing image: 1122
 Result: 
 Processing image: 1124
-Result: 
+Result: ممم
 Expected: ممم١
 Incorrect
 Processing image: 1129
@@ -1530,23 +1533,23 @@ Result: عع٤٤٤٤
 Expected: عع٤٤٤٤
 Correct
 Processing image: 1135
-Result: 
+Result: ججج٥٥٥٥
 Expected: ججج٥٥٥٥
-Incorrect
+Correct
 Processing image: 1137
-Result: ق٢٢٢
+Result: ققق٢٢٢
 Expected: ققق٢٢٢
-Incorrect
+Correct
 Processing image: 1138
 Result: 
 Expected: ققق٢٢٢
 Incorrect
 Processing image: 1140
-Result: سىف٩٩٩٩
+Result: سىفق٩٩٩٩
 Expected: سفى٩٩٩٩
-Correct
+Incorrect
 Processing image: 1142
-Result: رون٦٦٦٦
+Result: روقأ٦٦٦٦
 Expected: رقو٦٦٦٦
 Incorrect
 Processing image: 1148
@@ -1558,23 +1561,23 @@ Result: ررر٣٣٣٣
 Expected: ررر٣٣٣٣
 Correct
 Processing image: 1150
-Result: 
+Result: ررر١٣٣٣٣
 Expected: ررر٣٣٣٣
 Incorrect
 Processing image: 1151
-Result: 
+Result: ج
 Expected: رصم١١١١
 Incorrect
 Processing image: 1158
-Result: ١١أس١م
+Result: أ
 Expected: فف٦٦٦٦
 Incorrect
 Processing image: 1161
-Result: 
+Result: و١
 Expected: وو١
 Incorrect
 Processing image: 1166
-Result: عععأ١١١١
+Result: ععع١١١١أ
 Expected: ععع١١١١
 Incorrect
 Processing image: 1173
@@ -1586,91 +1589,91 @@ Result: ع١
 Expected: ع١
 Correct
 Processing image: 1175
-Result: ٢
+Result: 
 Expected: ب١
 Incorrect
 Processing image: 1179
-Result: سس٢٢٣
+Result: سسس٢٢٢٢
 Expected: سسس٢٢٢٢
-Incorrect
+Correct
 Processing image: 1180
-Result: عسلأ٤٤٤
+Result: عسل٤٤٤
 Expected: سعل٤٤٤
-Incorrect
+Correct
 Processing image: 1183
 Result: 
 Expected: س١
 Incorrect
 Processing image: 1184
-Result: ن
+Result: 
 Expected: س١
 Incorrect
 Processing image: 1206
-Result: و٥٦٦٦
+Result: ولع٦٦٦
 Expected: علو٦٦٦
-Incorrect
+Correct
 Processing image: 1212
-Result: 
+Result: أجأ
 Expected: دد١
 Incorrect
 Processing image: 1219
-Result: 
+Result: د
 Processing image: 1236
 Result: 
 Expected: سس١
 Incorrect
 Processing image: 1243
-Result: عوو٤٦٢
+Result: عوق٤٦٢
 Expected: عقو٢٤٦
-Incorrect
+Correct
 Processing image: 1244
-Result: 
+Result: سأم٦٦٦٦
 Expected: أسم٦٦٦٦
-Incorrect
+Correct
 Processing image: 1250
-Result: ھمأ٦٦٦٦
+Result: وھم٦٦٦٦
 Expected: مو٦٦٦٦ھ
-Incorrect
+Correct
 Processing image: 1253
-Result: 
+Result: ٨
 Expected: أ٨لو٢٦٨
 Incorrect
 Processing image: 1255
-Result: عموج١
+Result: عمو١
 Expected: عمو١
-Incorrect
+Correct
 Processing image: 1256
-Result: 
+Result: ٨
 Expected: أم٨٨٨٨ھ
 Incorrect
 Processing image: 1262
-Result: رصن١١١
+Result: رس٤١١١
 Expected: أر١١١
 Incorrect
 Processing image: 1263
-Result: لدفل١٦٦٦
+Result: دفل٦٦٦
 Expected: دفل٦٦٦
-Incorrect
+Correct
 Processing image: 1266
 Result: صصس٦٦٦
 Expected: صصص٦٦٦
 Incorrect
 Processing image: 1271
-Result: ٧جمل٩٩٩
+Result: جمل٩٩٩
 Expected: جلم٩٩٩
-Incorrect
+Correct
 Processing image: 1274
-Result: سصصم٦٦٦م
+Result: ١صصص٦٦٦
 Expected: صصص٦٦٦
 Incorrect
 Processing image: 1277
-Result: ورم٩٩٩٩
+Result: طرم٩٩٩٩
 Expected: رم٩٩٩٩ھ
 Incorrect
 Processing image: 1281
-Result: ر١
+Result: طر١
 Expected: رط١
-Incorrect
+Correct
 Processing image: 1284
 Result: أوس٢٢٢
 Expected: أسو٢٢٢
@@ -1680,23 +1683,23 @@ Result: ووو٧٧٧
 Expected: ووو٧٧٧رى٦٧٨ھ
 Incorrect
 Processing image: 1291
-Result: سأ٥٥
+Result: سأم٦٦
 Expected: أسم٦٦٦٦
 Incorrect
 Processing image: 1292
-Result: 
+Result: ھرط
 Expected: ر١ھ
 Incorrect
 Processing image: 1297
-Result: بأھ
+Result: أ
 Expected: أط١
 Incorrect
 Processing image: 1306
-Result: ١سد٤
+Result: أسد٤
 Expected: أدس٤
-Incorrect
+Correct
 Processing image: 1307
-Result: 
+Result: ٥
 Expected: س١ھ
 Incorrect
 Processing image: 1311
@@ -1704,19 +1707,19 @@ Result: بص٦٦٦٦
 Expected: بص٦٦٦٦
 Correct
 Processing image: 1318
-Result: وو٧٦٦٦٦
+Result: وو٦٦٦٦
 Expected: وو٦٦٦٦
-Incorrect
-Processing image: 1323
-Result: صقر٨٨٨٨
-Expected: رصق٨٨٨٨
 Correct
-Processing image: 1324
-Result: أأأ٩٧
-Expected: أأأ٩
+Processing image: 1323
+Result: سقر٨٨٨٨
+Expected: رصق٨٨٨٨
 Incorrect
+Processing image: 1324
+Result: أأأ٩
+Expected: أأأ٩
+Correct
 Processing image: 1329
-Result: بطل٧٧٧
+Result: بطل٧٧٧٧٨
 Expected: بطل٧٧٧٧
 Incorrect
 Processing image: 1336
@@ -1724,23 +1727,23 @@ Result: مم٢
 Expected: مم٢
 Correct
 Processing image: 1338
-Result: م
+Result: دھب٣
 Expected: بد٣ھ
-Incorrect
+Correct
 Processing image: 1342
-Result: سس٥٥٣٣٣٣
+Result: سس٣٣٣٣
 Expected: سس٣٣٣٣
-Incorrect
+Correct
 Processing image: 1344
 Result: أبأ١١١
 Expected: أأب١١١
 Correct
 Processing image: 1345
-Result: 
+Result: ٨٨ط
 Expected: ىىى٨٨٨٨
 Incorrect
 Processing image: 1351
-Result: رنص
+Result: رن٤٤٤
 Expected: جرن٤٤٤٤
 Incorrect
 Processing image: 1357
@@ -1748,31 +1751,31 @@ Result: أھم٩٩٩٩
 Expected: أم٩٩٩٩ھ
 Correct
 Processing image: 1358
-Result: عوقأ٤٦٢
+Result: عوق٤٦٢
 Expected: عقو٢٤٦
-Incorrect
+Correct
 Processing image: 1360
 Result: 
 Expected: مم٢
 Incorrect
 Processing image: 1365
-Result: مھ٢٢٢٢
+Result: مھ٢
 Expected: مم٢٢٢٢ھ
 Incorrect
 Processing image: 1368
-Result: فففن١١١١
+Result: ففف٤١١١١
 Expected: ففف١١١١
 Incorrect
 Processing image: 1369
-Result: مھم٢٢٢٢
+Result: ٢
 Expected: مم٢٢٢٢ھ
-Correct
+Incorrect
 Processing image: 1372
 Result: وأو٥٥٥
 Expected: أوو٥٥٥
 Correct
 Processing image: 1379
-Result: 
+Result: ممم
 Expected: ممم١
 Incorrect
 Processing image: 1380
@@ -1780,19 +1783,19 @@ Result: سبع٧
 Expected: بسع٧
 Correct
 Processing image: 1382
-Result: أأد٧
+Result: ١د
 Expected: أدس٢
 Incorrect
 Processing image: 1386
-Result: نصد٢
+Result: أسد٢
 Expected: أدس٢
-Incorrect
+Correct
 Processing image: 1387
 Result: ٥
 Expected: رنى٥٥٥٥
 Incorrect
 Processing image: 1390
-Result: 
+Result: ججط
 Expected: أسن١
 Incorrect
 Processing image: 1392
@@ -1804,19 +1807,19 @@ Result:
 Expected: أمم٦٦٦٦
 Incorrect
 Processing image: 1399
-Result: قلق١١١١
+Result: قلقق١١١١
 Expected: ققل١١١١
-Correct
+Incorrect
 Processing image: 1408
 Result: رنج٤٤٤٤
 Expected: جرن٤٤٤٤
 Correct
 Processing image: 1410
-Result: نصر١١١أ
+Result: نصر٧١١١
 Expected: رصن١١١
 Incorrect
 Processing image: 1413
-Result: رر
+Result: ررر
 Expected: و
 Incorrect
 Processing image: 1419
@@ -1828,9 +1831,9 @@ Result: نس٦٦أ
 Expected: سن٦٦٦٦
 Incorrect
 Processing image: 1432
-Result: ١١
+Result: بم٧أ
 Processing image: 1434
-Result: ٤٤٤٤
+Result: قق٤٤٤٤
 Expected: قق٤٤٤
 Incorrect
 Processing image: 1439
@@ -1838,25 +1841,25 @@ Result: بب١
 Expected: بب١
 Correct
 Processing image: 1442
-Result: رق١أأ
+Result: ق١
 Expected: ق١
-Incorrect
+Correct
 Processing image: 1446
-Result: 
+Result: طجم٥٥٥٥
 Expected: جمن٥٥٥٥
 Incorrect
 Processing image: 1448
-Result: ٤٤٤
+Result: سد٤٤٤٤
 Processing image: 1450
-Result: جب١
+Result: ععب١
 Expected: بع١
 Incorrect
 Processing image: 1454
-Result: 
+Result: طىب٥١١١١
 Expected: بطى١١١١
 Incorrect
 Processing image: 1458
-Result: ٧٧
+Result: ع٧٧٧
 Expected: رعم
 Incorrect
 Processing image: 1463
@@ -1868,11 +1871,11 @@ Result: ققق١١١
 Expected: ققق١١١
 Correct
 Processing image: 1467
-Result: سس٣
+Result: سس٣٣٣٣
 Processing image: 1469
-Result: 
+Result: ھع٦٦٦٦
 Expected: ع٦٦٦٦ھ
-Incorrect
+Correct
 Processing image: 1472
 Result: 
 Expected: أ٨
@@ -1886,31 +1889,31 @@ Result: ططط٧٧٧
 Expected: ططط٧٧٧
 Correct
 Processing image: 1479
-Result: 
+Result: د
 Expected: ٢
 Incorrect
 Processing image: 1482
-Result: أأ٤ھھط
+Result: أأب
 Expected: على٩٩٩٩
 Incorrect
 Processing image: 1484
-Result: نننأ١
+Result: ننن٦٦٦
 Expected: ننن٦٦٦
-Incorrect
+Correct
 Processing image: 1485
 Result: وو٧٧٧٧
 Expected: وو٧٧٧٧
 Correct
 Processing image: 1486
-Result: وو١١١
+Result: وو٧٧٧٧
 Expected: وو
 Incorrect
 Processing image: 1487
-Result: 
+Result: ٨ن
 Expected: ر١١١١
 Incorrect
 Processing image: 1490
-Result: 
+Result: ٢
 Expected: سسس٥
 Incorrect
 Processing image: 1492
@@ -1918,11 +1921,11 @@ Result:
 Expected: ١
 Incorrect
 Processing image: 1493
-Result: 
+Result: بطل١١٧٧
 Expected: بطل
 Incorrect
 Processing image: 1496
-Result: 
+Result: ھ٣أ
 Expected: أم٣٣٣ھ
 Incorrect
 Processing image: 1498
@@ -1930,7 +1933,7 @@ Result: جمى١١١
 Expected: جمى١١١
 Correct
 Processing image: 1502
-Result: 
+Result: ٩
 Expected: أع٢٢٢٢
 Incorrect
 Processing image: 1503
@@ -1942,11 +1945,11 @@ Result: وو٤٤٤٤
 Expected: وو٤٤٤٤
 Correct
 Processing image: 1515
-Result: ١١
+Result: ر١١
 Expected: ر١١
-Incorrect
+Correct
 Processing image: 1518
-Result: ١١١
+Result: ١١
 Expected: ر١١
 Incorrect
 Processing image: 1519
@@ -1954,29 +1957,29 @@ Result:
 Expected: ر١١
 Incorrect
 Processing image: 1521
-Result: ط٢
+Result: عف٢
 Expected: عف٢
-Incorrect
+Correct
 Processing image: 1527
-Result: بطل١١١
+Result: بطل١١ر١
 Expected: بل١١١
 Incorrect
 Processing image: 1528
-Result: ١٢
-Processing image: 1535
 Result: 
+Processing image: 1535
+Result: مم١
 Expected: مم١
-Incorrect
+Correct
 Processing image: 1536
-Result: م٧٢
+Result: مم٢
 Expected: مم٢
-Incorrect
+Correct
 Processing image: 1540
 Result: نجم٦٦٦٦
 Expected: جمن٦٦٦٦
 Correct
 Processing image: 1542
-Result: ٥
+Result: م
 Expected: دسع٥
 Incorrect
 Processing image: 1543
@@ -1984,7 +1987,7 @@ Result: د
 Expected: دسع٧٧٧٧
 Incorrect
 Processing image: 1546
-Result: أ١أ٢٢٢٢
+Result: ١أ٢٢
 Expected: أأأ٢٢٢٢
 Incorrect
 Processing image: 1549
@@ -2004,15 +2007,15 @@ Result:
 Expected: جنى١
 Incorrect
 Processing image: 1564
-Result: ١٥ھ
+Result: ٥ھ
 Expected: جمن١
 Incorrect
 Processing image: 1566
-Result: ى١٧سع
+Result: ١٩
 Expected: صصص٥٥٥٥
 Incorrect
 Processing image: 1567
-Result: 
+Result: ٣
 Expected: مم٢
 Incorrect
 Processing image: 1568
@@ -2020,9 +2023,9 @@ Result: أمر١١١١
 Expected: أرم١١١١
 Correct
 Processing image: 1569
-Result: ١١١١
+Result: أمر١١١١
 Expected: أرم١١١١
-Incorrect
+Correct
 Processing image: 1572
 Result: أمر١١١١
 Expected: أرم١١١١
@@ -2032,9 +2035,9 @@ Result: ففف١١١١
 Expected: ففف١١١١
 Correct
 Processing image: 1577
-Result: نأ١١١
+Result: أنأ١١١
 Expected: أأن١١١
-Incorrect
+Correct
 Processing image: 1582
 Result: 
 Expected: جقو٦٧٨
@@ -2044,19 +2047,19 @@ Result: قلق١
 Expected: ققل١
 Correct
 Processing image: 1586
-Result: 
+Result: رىس١
 Expected: رسى٢
 Incorrect
 Processing image: 1587
-Result: نجر١١١ن
+Result: نجر١١١
 Expected: جرن١١١١
 Incorrect
 Processing image: 1592
-Result: نقن٧٤٢١
+Result: نق٧٤٢١
 Expected: قن١٢٤٧
-Incorrect
+Correct
 Processing image: 1595
-Result: ن٦٦٦٦
+Result: نجأ٦٦٦٦
 Expected: أجن١١١أجن٦٦٦٦
 Incorrect
 Processing image: 1596
@@ -2072,41 +2075,41 @@ Result: طد٥٥٥٥
 Expected: دط٥٥٥٥
 Correct
 Processing image: 1608
-Result: جو١١١١
+Result: جو١١١
 Expected: جو١١١١
-Correct
+Incorrect
 Processing image: 1609
 Result: منى٦٦٦٦
 Expected: منى٦٦٦٦
 Correct
 Processing image: 1613
-Result: س
+Result: 
 Expected: ل١
 Incorrect
 Processing image: 1614
-Result: أأأأأ٤أ٤أ
+Result: 
 Expected: دط٥٥٥٥
 Incorrect
 Processing image: 1616
-Result: 
+Result: جب١
 Expected: بجل
 Incorrect
 Processing image: 1617
-Result: ىد٩٩٩
+Result: سىد٩٩٩
 Expected: دسى٩٩٩
-Incorrect
+Correct
 Processing image: 1619
 Result: نجم٤٤٤٤
 Expected: جمن٤٤٤٤
 Correct
 Processing image: 1621
-Result: 
+Result: لل٥٥٥٥
 Expected: لل٥٥٥٥
-Incorrect
+Correct
 Processing image: 1624
-Result: دو١
+Result: مو١
 Expected: مو١
-Incorrect
+Correct
 Processing image: 1628
 Result: 
 Expected: أسق١٢٢٥
@@ -2124,27 +2127,27 @@ Result: فود٤٨٧٣
 Expected: دفو٣٤٧٨
 Correct
 Processing image: 1646
-Result: أىص٧٧٣٤١
+Result: أىص٧٣٤١
 Expected: أصى١٣٤٧
-Incorrect
+Correct
 Processing image: 1649
 Result: بطص٥٩٤١
 Expected: بصط١٤٥٩
 Correct
 Processing image: 1651
-Result: وأ١٩٣١
+Result: جو١٩٣١
 Expected: نو١٢٣٩
 Incorrect
 Processing image: 1654
-Result: قأأ٣٥٧ج
+Result: دأأ٣٥٧
 Expected: أأد٣٥٧
-Incorrect
+Correct
 Processing image: 1657
-Result: 
+Result: سوس١١١١
 Expected: سسو١١١١
-Incorrect
+Correct
 Processing image: 1662
-Result: أأسد٨٨
+Result: نسد٨٨
 Expected: أدس٨٨
 Incorrect
 Processing image: 1663
@@ -2152,7 +2155,7 @@ Result: أ١١٩
 Expected: أ١١٩
 Correct
 Processing image: 1664
-Result: قم١١
+Result: نم
 Expected: من١
 Incorrect
 Processing image: 1667
@@ -2164,7 +2167,7 @@ Result:
 Expected: طنو١
 Incorrect
 Processing image: 1669
-Result: ص١٧
+Result: ب٧٧
 Expected: برع٧٧٧٧
 Incorrect
 Processing image: 1670
@@ -2172,7 +2175,7 @@ Result: مفھ١١١١
 Expected: فم١١١١ھ
 Correct
 Processing image: 1671
-Result: 
+Result: عع
 Expected: مم٢٢٢٢ھ
 Incorrect
 Processing image: 1676
@@ -2180,29 +2183,29 @@ Result: عسل٥٥٥
 Expected: سعل٥٥٥
 Correct
 Processing image: 1680
-Result: عط١٦٦٦٦
+Result: عطأ٦٦٦٦
 Expected: أطع٦٦٦٦
-Incorrect
+Correct
 Processing image: 1688
-Result: قر١٩٩٩
+Result: صقر٩٩٩
 Expected: رصق٩٩٩
-Incorrect
+Correct
 Processing image: 1691
-Result: عو١
+Result: عمو١
 Expected: عمو١
-Incorrect
+Correct
 Processing image: 1694
-Result: ١نجم٤٤٤٤
+Result: نجم٤٤٤٤
 Expected: جمن٤٤٤٤
-Incorrect
+Correct
 Processing image: 1697
-Result: 
+Result: ١
 Expected: عمم١
 Incorrect
 Processing image: 1699
-Result: م١ن١١١١
+Result: مأن١١١١
 Expected: أمن١١١١
-Incorrect
+Correct
 Processing image: 1704
 Result: 
 Expected: س٢
@@ -2212,144 +2215,147 @@ Result: دلع٢٢٢
 Expected: دعل٢٢٢
 Correct
 Processing image: 1709
-Result: طدأل٧٧٧
+Result: دأل٧٧٧٧
 Expected: أدل٧٧٧٧
-Incorrect
+Correct
 Processing image: 1711
 Result: 
 Expected: عم٥٥٥٥
 Incorrect
 Processing image: 1712
-Result: عجق٥٥٥٥
+Result: عج٥٥٥٥
 Expected: جع٥٥٥٥
-Incorrect
-Processing image: 1714
-Result: ھرم١١١
-Expected: رم١١١ھ
 Correct
+Processing image: 1714
+Result: ھرم٥١١١
+Expected: رم١١١ھ
+Incorrect
 Processing image: 1734
-Result: ٧قأ٧٤٥٤
+Result: قأ٧٤٥٤
 Expected: أق٤٤٥٧
-Incorrect
+Correct
 Processing image: 1737
-Result: طن٤١٩٥
+Result: طمن٤١٩٥
 Expected: طمن١٤٥٩
-Incorrect
+Correct
 Processing image: 1755
-Result: ٥أ١ع
+Result: 
 Expected: دم٣٧٨٩ھ
 Incorrect
 Processing image: 1756
-Result: 
+Result: مدھ٩أ٣أ٧٨
 Expected: دم٣٧٨٩ھ
 Incorrect
 Processing image: 1761
-Result: ٢
+Result: 
 Expected: مو٦٦٦٦ھ
 Incorrect
 Processing image: 1762
-Result: وأوأ١١١١
+Result: قلقأأ١أ
 Expected: ققل١١١١
 Incorrect
 Processing image: 1765
-Result: ٤
+Result: أ٤٤٤٤
 Expected: دعم٤٤٤٤
 Incorrect
 Processing image: 1782
-Result: جو٦٦٦٦
+Result: رجو٦٦٦٦
 Expected: جو٦٦٦٦
-Correct
+Incorrect
 Processing image: 1787
-Result: 
+Result: ٧٨
 Expected: سم١٢٣٨
 Incorrect
 Processing image: 1789
-Result: ١١
+Result: ١أ
 Expected: سم١٢٣٨
 Incorrect
 Processing image: 1794
-Result: د٣٤٢
+Result: دطل٣٤٢
 Expected: دطل٢٣٤
-Incorrect
+Correct
 Processing image: 1802
-Result: جقعأ٢٧٩
+Result: جق٢٧٩
 Expected: جعق٢٧٩
 Incorrect
 Processing image: 1804
-Result: وأ٥٦٢٤
+Result: مو٦ق٦٢٤
 Expected: أمو٢٤٥٦
 Incorrect
 Processing image: 1812
-Result: جع٢٧٩
+Result: جوع٢٧٩
 Expected: جعق٢٧٩
 Incorrect
 Processing image: 1814
-Result: ھ
+Result: 
 Expected: جر١٣٩ھ
 Incorrect
 Processing image: 1821
-Result: ٥١٩٦
+Result: و٥١٩٦
 Expected: أأق١٥٦٩
 Incorrect
 Processing image: 1822
+Result: 
+Expected: درس٧٧٨٩
+Incorrect
 Processing image: 1827
-Result: ط١
+Result: جد
 Expected: أبق٢٣٦٨
 Incorrect
 Processing image: 1828
-Result: 
+Result: أأ
 Expected: دطل٢٣٤
 Incorrect
 Processing image: 1836
-Result: ر٥٣٣٣٣
+Result: ط٥٣٣٣٣
 Expected: فن٣٣٣٣
 Incorrect
 Processing image: 1840
-Result: ىط٧٤٦
+Result: ىعط٧٤٦
 Expected: طعى٤٦٧
-Incorrect
+Correct
 Processing image: 1845
-Result: طقط٧٢د
+Result: طأط١٢ن
 Expected: أطط٢٥٧
 Incorrect
 Processing image: 1851
-Result: دق٥٤٧٣
+Result: ١دق٥٤٧٣
 Expected: دق٣٤٥٧
-Correct
+Incorrect
 Processing image: 1852
-Result: دق٥٤٧٣
+Result: ١دق٥٤٧٣
 Expected: دق٣٤٥٧
-Correct
+Incorrect
 Processing image: 1858
-Result: ٧ملط٧١٢٧
+Result: ملطب١٢٧
 Expected: طلم١٢٧
 Incorrect
 Processing image: 1859
-Result: نمىج٩١٤
+Result: نمى٩١٤
 Expected: منى١٤٩
-Incorrect
+Correct
 Processing image: 1862
 Result: ىج١٤٧٥
 Expected: أجى١٤٥٧
 Incorrect
 Processing image: 1863
-Result: فطر١١١٤
+Result: 
 Expected: رطف١٤٧٩
 Incorrect
 Processing image: 1867
-Result: د٥٣٨٤
+Result: فبد٥٣٨٤
 Expected: بدف٣٤٥٨
-Incorrect
+Correct
 Processing image: 1868
 Result: أدع٢٥٩٧
 Expected: أدع٢٥٧٩
 Correct
 Processing image: 1869
-Result: دق٥٤٧
+Result: ق٥٤٧
 Expected: دق٣٤٥٧
 Incorrect
 Processing image: 1870
-Result: ىفط٧٦٥١
+Result: ىفط٦٥١
 Expected: ١٥٦
 Incorrect
 Processing image: 1890
@@ -2357,55 +2363,55 @@ Result: ق٩٢٤٣
 Expected: سعق٢٣٤٩
 Incorrect
 Processing image: 1897
-Result: عو٦٢٤٦
+Result: عق٦٢٤٦
 Expected: عق٢٤٦٦
-Incorrect
+Correct
 Processing image: 1899
-Result: أھص٩٥
+Result: أھص٧٩٥٨
 Expected: أص٥٧٨٩ھ
-Incorrect
+Correct
 Processing image: 1909
-Result: قد٧
+Result: ٥ف٤٧
 Expected: فف٤٦٧٩
 Incorrect
 Processing image: 1910
-Result: 
+Result: ١
 Expected: ببر٢٥٦
 Incorrect
 Processing image: 1914
-Result: رق٧
+Result: رقع٧٥
 Expected: رعق٢٤٥٧
 Incorrect
 Processing image: 1915
-Result: مب٩
+Result: مب٩٦
 Expected: بم٣٦٦٩
 Incorrect
 Processing image: 1916
-Result: قجبأ٣٤٩٥
+Result: قجب٣٤٩٥
 Expected: بجق٣٤٥٩
-Incorrect
+Correct
 Processing image: 1918
-Result: رھ١٣
+Result: طرھد٨٧٣
 Expected: رس٣٧٨ھ
 Incorrect
 Processing image: 1927
-Result: أدطص٩٦٤
+Result: دطس٩٦٤
 Expected: دصط٤٦٩
 Incorrect
 Processing image: 1929
-Result: قصع٨٥٦٣
+Result: قسع٨٥٦٣
 Expected: سعق٣٥٦٨
-Incorrect
+Correct
 Processing image: 1932
-Result: ١١
+Result: رج١١٤١٦
 Expected: جر١١٤٦
 Incorrect
 Processing image: 1936
-Result: لسلع٥٣
+Result: لسل٤٢
 Expected: سلل٣٤٥
 Incorrect
 Processing image: 1944
-Result: 
+Result: ب٣٤٩
 Expected: بجق٣٤٥٩
 Incorrect
 Processing image: 1945
@@ -2413,17 +2419,17 @@ Result: مطف٧٦٤
 Expected: طفم٤٦٧
 Correct
 Processing image: 1949
-Result: 
+Result: ٧٤١
 Expected: جم١٤٥٧
 Incorrect
 Processing image: 1951
-Result: ھ٩١٥
+Result: عھ٩٥
 Processing image: 1953
-Result: ھ٥١٤٣
+Result: ھس٥١٤٣
 Expected: أس١٣٤٥ھ
 Incorrect
 Processing image: 1954
-Result: ىبھ٣٧
+Result: ىبھأ٣٧
 Expected: بى٣٧٨ھ
 Incorrect
 Processing image: 1957
@@ -2435,11 +2441,11 @@ Result:
 Expected: طقل٦٦٦
 Incorrect
 Processing image: 1971
-Result: بب٩٥٩
+Result: بل٩٥٩٩
 Expected: بطل٥٩٩
 Incorrect
 Processing image: 1973
-Result: سس١١١١
+Result: سس١١١٧
 Expected: سس٣٣٣٣
 Incorrect
 Processing image: 1976
@@ -2447,43 +2453,43 @@ Result: ١مھم٦٦٦
 Expected: مم٦٦٦ھ
 Incorrect
 Processing image: 1977
-Result: 
+Result: بطل١
 Expected: بطل١
-Incorrect
-Processing image: 1979
-Result: منى١١١
-Expected: منى١١١
 Correct
-Processing image: 1980
-Result: ١
-Expected: ١ھھ
+Processing image: 1979
+Result: ھ
+Expected: منى١١١
 Incorrect
+Processing image: 1980
+Result: ھھ١
+Expected: ١ھھ
+Correct
 Processing image: 1983
-Result: 
+Result: ٤
 Expected: رصق٦٦٦
 Incorrect
 Processing image: 1985
-Result: و١
+Result: ر١
 Expected: ر١
-Incorrect
+Correct
 Processing image: 1987
-Result: ن
+Result: ٣
 Expected: ع٤
 Incorrect
 Processing image: 2001
-Result: 
+Result: نصر١١١١
 Expected: رصن١١١١
-Incorrect
+Correct
 Processing image: 2003
-Result: ر١٧
+Result: ر١١١
 Expected: ر١١١
-Incorrect
+Correct
 Processing image: 2006
 Result: أنس١
 Expected: أسن١
 Correct
 Processing image: 2008
-Result: ١١١١
+Result: م١١١
 Expected: أ١١١
 Incorrect
 Processing image: 2021
@@ -2491,15 +2497,15 @@ Result:
 Expected: أر٤٤٤٤
 Incorrect
 Processing image: 2023
-Result: ىىىأ١١١١
+Result: ىى
 Expected: ىىى١١١١
 Incorrect
 Processing image: 2024
-Result: س١أ٧١١١١
+Result: سأأم١١١١
 Processing image: 2025
-Result: 
+Result: ددد٨٨٨
 Expected: ددد٨٨٨
-Incorrect
+Correct
 Processing image: 2032
 Result: ١
 Expected: ١ھ
@@ -2517,7 +2523,7 @@ Result:
 Expected: ١
 Incorrect
 Processing image: 2044
-Result: مھمم٢١٢
+Result: ١٢ھم١٢٢١٢
 Expected: مم٢٢٢ھ
 Incorrect
 Processing image: 2046
@@ -2525,23 +2531,23 @@ Result: ررر١١١
 Expected: ررر١١١
 Correct
 Processing image: 2050
-Result: 
+Result: ب١١١١
 Expected: جن١١١١
 Incorrect
 Processing image: 2054
-Result: د١
+Result: د
 Expected: د١
-Correct
+Incorrect
 Processing image: 2056
-Result: ٢ھم١٢١٢
+Result: ١٢ھم١٢٢١٢
 Expected: مم٢٢٢ھ
 Incorrect
 Processing image: 2069
-Result: 
+Result: ٦
 Expected: م١
 Incorrect
 Processing image: 2075
-Result: سأأأ١١١١
+Result: سأأ١١١١
 Expected: أأس١١١١
-Incorrect
-Accuracy: 0.2652439024390244
+Correct
+Accuracy: 0.4148936170212766

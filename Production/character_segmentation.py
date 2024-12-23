@@ -128,69 +128,53 @@ class CharacterSegmentation:
         x, y, w, h = cv2.boundingRect(max_contour)
 
         aspect_ratio = w / h
-        mask = np.ones_like(self.original_gray)
-
         if 2.2 < aspect_ratio < 5:
             mask = np.zeros_like(self.original_gray)
             cv2.rectangle(mask, (x, y), (x + w, y + h), (255, 255, 255), -1)
+            masked_image = cv2.bitwise_and(self.original_gray, mask)
+        else:
+            masked_image = self.original_gray
 
-        mask = cv2.resize(mask, (600, 400))
+        masked_image = cv2.resize(masked_image, (600, 400))
+        self.show_image("Masked Image", masked_image)
 
-        self.show_image("Mask", mask)
-
-        return mask
+        return masked_image
 
     def preprocess(self):
-        self.image[:, :10] = 255
-        self.image[:, -10:] = 255
-        img_cleaned = self.clean_image(self.image)
-        mask = self.mask_plate()
+        self.show_image("Plate", self.image)
+        self.show_image("Gray Plate", self.gray)
 
-        img_cleaned = cv2.bitwise_and(img_cleaned, mask)
-        img_cleaned = cv2.bitwise_not(img_cleaned)
+        masked_image = self.mask_plate()
 
-        self.show_image("Preprocessed Image", img_cleaned)
+        # Apply unsharp mask to strength the edges
+        self.sharp_image = self.unsharp_mask(masked_image, 10, 5)
+        self.show_image("Sharpened", self.sharp_image)
 
-        return img_cleaned
+        # Remove noise and enhance characters
+        rectKernel = cv2.getStructuringElement(cv2.MORPH_RECT, (2, 4))
+        erode = cv2.erode(self.sharp_image, (2, 4), iterations=1)
+        dilate = cv2.dilate(erode, (3, 12), iterations=1)
 
-    def clean_image(self, img):
-        gray_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+        dilate = cv2.bitwise_not(dilate)
+        erode = cv2.erode(dilate, None, iterations=2)
+        self.show_image("Characters Enhanced", erode)
 
-        resized_img = cv2.resize(gray_img, (600, 400))
+        # Apply threshold to get binary image
+        threshold_image = cv2.threshold(
+            erode, 0, 255, cv2.THRESH_BINARY | cv2.THRESH_OTSU)[1]
 
-        resized_img = cv2.GaussianBlur(resized_img, (5, 5), 0)
+        self.show_image("Threshold Image", threshold_image)
 
-        equalized_img = cv2.equalizeHist(resized_img)
+        return threshold_image
 
-        reduced = cv2.cvtColor(self.reduce_colors(cv2.cvtColor(
-            equalized_img, cv2.COLOR_GRAY2BGR), 4), cv2.COLOR_BGR2GRAY)
+    def unsharp_mask(self, image, sigma=1.0, strength=1.5):
+        # Apply Gaussian blur
+        blurred = cv2.GaussianBlur(image, (0, 0), sigma)
 
-        ret, mask = cv2.threshold(reduced, 64, 255, cv2.THRESH_BINARY)
-
-        kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (3, 3))
-        mask = cv2.erode(mask, kernel, iterations=1)
-
-        return mask
-
-    def reduce_colors(self, img, n):
-        Z = img.reshape((-1, 3))
-
-        # convert to np.float32
-        Z = np.float32(Z)
-
-        # define criteria, number of clusters(K) and apply kmeans()
-        criteria = (cv2.TERM_CRITERIA_EPS +
-                    cv2.TERM_CRITERIA_MAX_ITER, 10, 1.0)
-        K = n
-        ret, label, center = cv2.kmeans(
-            Z, K, None, criteria, 10, cv2.KMEANS_RANDOM_CENTERS)
-
-        # Now convert back into uint8, and make original image
-        center = np.uint8(center)
-        res = center[label.flatten()]
-        res2 = res.reshape((img.shape))
-
-        return res2
+        # Subtract the blurred image from the original
+        sharpened = cv2.addWeighted(
+            image, 1.0 + strength, blurred, -strength, 0)
+        return sharpened
 
 
 if __name__ == '__main__':

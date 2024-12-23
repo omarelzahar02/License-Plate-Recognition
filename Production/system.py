@@ -91,13 +91,12 @@ def pickRandomNImagesAndExtractAndShow(n, labels):
 
 if __name__ == "__main__":
     # construct_dataset_labels("../chars_labeling/Characters")
-    labels = read_labels_file("labels.txt")
-    # rand_labels = labels.sample(10)
-    # for label in rand_labels.index:
-    #     print(f"Label: {label} Value: {rand_labels['label'][label]}")
 
-    knn_model = joblib.load("../model_1.pkl")
+    labels = read_labels_file("labels.txt")
+
+    knn_model = joblib.load("../model_2.pkl")
     threshold = 1.50
+
     # pickRandomNImagesAndExtractAndShow(10, labels)
 
     correct = 0
@@ -143,15 +142,9 @@ if __name__ == "__main__":
                 correct += 1
 
         except:
-            print("No label found")
+            continue
 
     accuracy = correct / total
     log_file.write(f"Accuracy: {accuracy}\n")
     print(f"Accuracy: {accuracy}")
-    # result = process_image(
-    #     "../Dataset/Vehicles/2056.jpg", knn_model, threshold, Verbosity.ALL_STEPS)
-    # print(f"Result: {result}")
-    # print(f"Expected: {labels['label'][9]}")
-
-    # accuracy_score(labels['label'], result)
-    # print(f"Result: {result}")
+    log_file.close()
