@@ -40,7 +40,7 @@ class CharacterRecognition:
                 continue
 
             if nearest_distance < self.threshold:
-                plate_text += char
+                plate_text = plate_text + " " + char
 
         return plate_text
 
