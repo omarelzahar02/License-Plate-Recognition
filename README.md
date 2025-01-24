@@ -62,3 +62,9 @@ python gui.py
 
 **In the processing of the image we mark the license plate.**
 ![Screenshot](/Images/Car2_Marked.PNG)
+
+## Contributors
+* [Omar Elzahar](https://github.com/omarelzahar02)
+* [Salah Abotaleb](https://github.com/SalahAbotaleb)
+* [Hussien Elhawary](https://github.com/Hussein-Elhawary)
+* [Moaaz Tarek](https://github.com/moa234)
