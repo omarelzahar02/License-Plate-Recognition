@@ -13,7 +13,7 @@ We used classical computer vision for detection of license plates and classical 
 # Installation
 1. **Clone the repository**
 ```bash
-git clone https://github.com/omarelzahar02/GateAccessControl.git
+git clone https://github.com/omarelzahar02/License-Plate-Recognition.git
 ```
 
 2. ## Prerequisites
