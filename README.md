@@ -49,15 +49,16 @@ python gui.py
 
 # Screenshots
 
-Input image and the plate number is the result of the recognition.
+**Input image and the plate number is the result of the recognition.**
 
 ![Screenshot](/Images/Car1.PNG)
 
-In the processing of the image we mark the license plate.
+**In the processing of the image we mark the license plate.**
 ![Screenshot](/Images/Car1_Marked.PNG)
 
-Input image and the plate number is the result of the recognition.
+
+**Input image and the plate number is the result of the recognition.**
 ![Screenshot](/Images/Car2.PNG)
 
-In the processing of the image we mark the license plate.
+**In the processing of the image we mark the license plate.**
 ![Screenshot](/Images/Car2_Marked.PNG)
