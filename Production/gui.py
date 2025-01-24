@@ -9,12 +9,12 @@ from system import *
 # Initialize the GUI window with drag-and-drop support
 root = TkinterDnD.Tk()  # Enables drag-and-drop
 
-root.title("Gate Access Control")
+root.title("License Plate Recognition")
 root.geometry("800x700+20+20")
 root.configure(bg="#329171")  # Background color
 
 # Title Label
-title_label = ctk.CTkLabel(root, text="Gate Access Control: Drag&Drop is Our Classical Model", font=(
+title_label = ctk.CTkLabel(root, text="License Plate Recognition: Drag&Drop is Our Classical Model", font=(
     "Helvetica", 20, "bold"), bg_color="transparent", text_color="#FFFFFF")
 title_label.pack(pady=10)
 
