@@ -14,7 +14,7 @@ root.geometry("800x700+20+20")
 root.configure(bg="#329171")  # Background color
 
 # Title Label
-title_label = ctk.CTkLabel(root, text="Gate Access Control", font=(
+title_label = ctk.CTkLabel(root, text="Gate Access Control: Drag&Drop is Our Classical Model", font=(
     "Helvetica", 20, "bold"), bg_color="transparent", text_color="#FFFFFF")
 title_label.pack(pady=10)
 
@@ -34,14 +34,21 @@ label.pack(pady=10)
 knn_model = joblib.load("model_2.pkl")
 threshold = 1.50
 
+# Load the YOLO model
+yolo_model_path = "Yolo.onnx"
+yolo_model = YOLO(yolo_model_path, task="detect")
+
 # Function to process image and extract text
 
 
-def process_image_gui(file_path):
+def process_image_gui(file_path, type=0):
     try:
         # function salah hena
         # image = Image.open(file_path)
-        plate_num = process_image(file_path, knn_model, threshold)
+        if type == 0:
+            plate_num = process_image(file_path, knn_model, threshold)
+        else:
+            plate_num = process_image_dnn(file_path, yolo_model)
         text_label.configure(text=f"Plate Number: {plate_num}", font=(
             "Arial", 18), text_color="#FFFFFF")
     except Exception as e:
@@ -51,14 +58,14 @@ def process_image_gui(file_path):
 # Function to display the selected image
 
 
-def display_image(file_path):
+def display_image(file_path, type=0):
     try:
         img = Image.open(file_path)
         img = img.resize((400, 400))  # Resize
         img_tk = ImageTk.PhotoImage(img)
         canvas.create_image(200, 200, anchor="center", image=img_tk)
         canvas.image = img_tk  # Keep reference to avoid garbage collection
-        process_image_gui(file_path)
+        process_image_gui(file_path, type)
     except Exception as e:
         label.configure(text=f"Error loading image: {e}", fg_color="#E74C3C",
                         bg_color="transparent", text_color="#FFFFFF", corner_radius=5, width=200, height=25)
@@ -94,6 +101,18 @@ def select_image():
                         text_color="#FFFFFF", corner_radius=5, width=200, height=25)
 
 
+def select_image_yolo():
+    file_path = filedialog.askopenfilename(
+        filetypes=[("Image Files", "*.png;*.jpg;*.jpeg")])
+    if file_path:
+        label.configure(text="Image loaded successfully!", fg_color="#2ECC71",
+                        bg_color="transparent", text_color="#FFFFFF", corner_radius=5, width=200, height=25)
+        display_image(file_path, 1)
+    else:
+        label.configure(text="Failed to load image.", fg_color="#E74C3C", bg_color="transparent",
+                        text_color="#FFFFFF", corner_radius=5, width=200, height=25)
+
+
 # Enable drag-and-drop on the canvas
 root.drop_target_register(DND_FILES)
 root.dnd_bind('<<Drop>>', drop_image)
@@ -107,7 +126,7 @@ menu_button1 = ctk.CTkButton(button_frame, text='Select image', bg_color="#32917
 menu_button1.pack(side="left", padx=2)
 
 menu_button2 = ctk.CTkButton(button_frame, text='Select image using Yolo', bg_color="#329171", text_color="#FFFFFF",
-                             command=select_image, fg_color="#08b6d9", hover_color="#087bb8", width=200, height=35, font=("Arial", 16, "bold"))
+                             command=select_image_yolo, fg_color="#08b6d9", hover_color="#087bb8", width=200, height=35, font=("Arial", 16, "bold"))
 menu_button2.pack(side="left", padx=2)
 
 # Label for extracted text
